@@ -30,7 +30,7 @@
 
 <!-- content -->
 <!-- sejarah -->
-<section class="container-fluid another-section" style="background-image: url('img/gedung.jpg'); background-size: cover; background-position: center; margin-bottom:0%; height:auto;">
+<section class="container-fluid another-section" style="background-image: url('img/gedung.jpg'); background-size: cover; background-position: center; margin-bottom:0%; height:100vh;">
       <div class="container py-3">
         <div class="idx text-center" style="background: rgba(255, 255, 255, 0.4); backdrop-filter: blur(5px); padding: 20px; border-radius: 10px;">
           <h5 class="sejarah">Institut Teknologi dan Bisnis STIKOM Bali</h5>
@@ -60,19 +60,20 @@
     <!-- visi misi tujuan -->
     <section class=" text-light" style="background-color: #0B1D6F; position:relative;">
     <img src="img/ornamen.png" alt="Corner Image" class="corner-image top-left" style="position:absolute; top: 0px; left:0px; transform:rotate(180deg); width: 500px; height: 500px;">
- 
-    <div class=" py-5 container">
+    <div class=" py-5 container" style="text-align: center;">
       <h3>Visi Direktorat Pascasarjana</h3>
       <p>Menjadi penyelenggara program Pascasarjana yang berkualitas dan berdaya saing <br>internasional dalam pengembangan bidang ilmu Pengetahuan, Teknologi dan Seni</p>
+      <div>
       <h3>Misi</h3>
-      <p>
-        1. Melaksanakan Tri Dharma Perguruan Tinggi secara profesional dan berkualitas. <br>
-        2. Berperan secara aktif dalam pengembangan di bidang ilmu pengetahuan, teknologi dan seni. <br>
-        3. Memberikan manfaat yang sebesar-besarnya kepada masyarakat sekitar, regional dan <br> nasional terkait dengan pengembangan  dan aplikasi bidang ilmu pengetahuan, teknologi <br>dan seni. <br>
-        4. Menjalin kerjasama dengan berbagai kalangan baik dalam maupun luar negeri dalam rangka <br>pengembangan dan peningkatan kualitas ITB STIKOM Bali. <br>
-        5. Menjadi wadah yang dapat dibanggakan dan memberikan rasa nyaman bagi seluruh warga <br>kampus. <br>
-        6. Melaksanakan pengelolaan institusi dengan memerhatikan prinsip-prinsip tata pamong dan <br> tata kelola yang baik (transparansi, akuntabilitas, bertanggungjawab, mandiri, dan berkeadilan).
-      </p>
+        <p>
+          1. Melaksanakan Tri Dharma Perguruan Tinggi secara profesional dan berkualitas. <br>
+          2. Berperan secara aktif dalam pengembangan di bidang ilmu pengetahuan, teknologi dan seni. <br>
+          3. Memberikan manfaat yang sebesar-besarnya kepada masyarakat sekitar, regional dan <br> nasional terkait dengan pengembangan  dan aplikasi bidang ilmu pengetahuan, teknologi <br>dan seni. <br>
+          4. Menjalin kerjasama dengan berbagai kalangan baik dalam maupun luar negeri dalam rangka <br>pengembangan dan peningkatan kualitas ITB STIKOM Bali. <br>
+          5. Menjadi wadah yang dapat dibanggakan dan memberikan rasa nyaman bagi seluruh warga <br>kampus. <br>
+          6. Melaksanakan pengelolaan institusi dengan memerhatikan prinsip-prinsip tata pamong dan <br> tata kelola yang baik (transparansi, akuntabilitas, bertanggungjawab, mandiri, dan berkeadilan).
+        </p>
+      </div>
       <h3>Tujuan</h3>
       <p>
         1. Meningkatkan kualitas dan relevansi pendidikan di bidang ICT. <br>
@@ -86,7 +87,15 @@
     </section>
 
     <!-- struktur organisasi -->
-    
+    <div class="idx text-center py-5">
+  <h3>Struktur Organisasi</h3>
+  <h5>Pascasarjana ITB STIKOM Bali</h5>
+  <div style="background-color: #6C7ABB; padding: 10px; border-radius: 10px; display: inline-block;">
+    <img src="img/Struktur organisasi.png" alt="" style="border-radius: 10px; display: block;">
+  </div>
+</div>
+
+
 
 <!-- end content -->
 

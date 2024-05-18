@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/akademik', function () {
+    return view('akademik');
+});
+

@@ -11,7 +11,7 @@
     <!-- navbar -->
     <x-navbar></x-navbar>
 
-<div class="container-fluid">
+<div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6 col-lg-4 mb-1 mt-2 pr-0">
             <div class="card" style="display: flex; flex-direction: row; align-items: flex-start; height: 20rem;">
@@ -26,7 +26,7 @@
         </div>
         <div class="col-md-6 col-lg-4 mb-1 mt-2 px-0">
             <div class="card" style="display: flex; flex-direction: row; align-items: flex-start; height: 20rem;">
-                <img src="img/image 19.png" class="card-img-top img-fluid" alt="..." style="width: 50%; height:auto; object-fit:cover;">
+                <img src="img/image 20.png" class="card-img-top img-fluid" alt="..." style="width: 50%; height:auto; object-fit:cover;">
                 <div class="card-body" style="display:flex; flex-direction:column; justify-content:center;width:50%; padding:0;">
                     <h5 class="card-title" style="font-size: medium;">MAGISTER KOMPUTER S2 PROGRAM STUDI SISTEM INFORMASI ITB STIKOM BALI</h5>
                     <p style="font-size: small;">Kamu bisa kuliah 1,5 tahun dengan biaya yang terjangkau, fasilitas yang lengkap dan jadwal kuliah yang Fleksibel</p>
@@ -37,7 +37,7 @@
         </div>
         <div class="col-md-6 col-lg-4 mb-1 mt-2 pl-0">
             <div class="card" style="display: flex; flex-direction: row; align-items: flex-start; height: 20rem;">
-                <img src="img/image 19.png" class="card-img-top img-fluid" alt="..." style="width: 50%; height:auto; object-fit:cover;">
+                <img src="img/image 23.png" class="card-img-top img-fluid" alt="..." style="width: 50%; height:auto; object-fit:cover;">
                 <div class="card-body" style="display:flex; flex-direction:column; justify-content:center;width:50%; padding:0;">
                     <h5 class="card-title" style="font-size: medium;">MAGISTER KOMPUTER S2 PROGRAM STUDI SISTEM INFORMASI ITB STIKOM BALI</h5>
                     <p style="font-size: small;">Kamu bisa kuliah 1,5 tahun dengan biaya yang terjangkau, fasilitas yang lengkap dan jadwal kuliah yang Fleksibel</p>
@@ -48,11 +48,11 @@
         </div>
     </div>
 </div>
-<div class="container-fluid">
+<div class="container">
     <div class="row justify-content-center">
         <div class="col-md-6 col-lg-4 mb-1 mt-2 pr-0">
             <div class="card" style="display: flex; flex-direction: row; align-items: flex-start; height: 20rem;">
-                <img src="img/image 19.png" class="card-img-top img-fluid" alt="..." style="width: 50%; height:auto; object-fit:cover;">
+                <img src="img/image 21.png" class="card-img-top img-fluid" alt="..." style="width: 50%; height:auto; object-fit:cover;">
                 <div class="card-body" style="display:flex; flex-direction:column; justify-content:center;width:50%; padding:0;">
                     <h5 class="card-title" style="font-size: medium;">MAGISTER KOMPUTER S2 PROGRAM STUDI SISTEM INFORMASI ITB STIKOM BALI</h5>
                     <p style="font-size: small;">Kamu bisa kuliah 1,5 tahun dengan biaya yang terjangkau, fasilitas yang lengkap dan jadwal kuliah yang Fleksibel</p>
@@ -63,7 +63,7 @@
         </div>
         <div class="col-md-6 col-lg-4 mb-1 mt-2 px-0">
             <div class="card" style="display: flex; flex-direction: row; align-items: flex-start; height: 20rem;">
-                <img src="img/image 19.png" class="card-img-top img-fluid" alt="..." style="width: 50%; height:auto; object-fit:cover;">
+                <img src="img/image 22.png" class="card-img-top img-fluid" alt="..." style="width: 50%; height:auto; object-fit:cover;">
                 <div class="card-body" style="display:flex; flex-direction:column; justify-content:center;width:50%; padding:0;">
                     <h5 class="card-title" style="font-size: medium;">MAGISTER KOMPUTER S2 PROGRAM STUDI SISTEM INFORMASI ITB STIKOM BALI</h5>
                     <p style="font-size: small;">Kamu bisa kuliah 1,5 tahun dengan biaya yang terjangkau, fasilitas yang lengkap dan jadwal kuliah yang Fleksibel</p>
@@ -74,7 +74,7 @@
         </div>
         <div class="col-md-6 col-lg-4 mb-1 mt-2 pl-0">
             <div class="card" style="display: flex; flex-direction: row; align-items: flex-start; height: 20rem;">
-                <img src="img/image 19.png" class="card-img-top img-fluid" alt="..." style="width: 50%; height:auto; object-fit:cover;">
+                <img src="img/image 24.png" class="card-img-top img-fluid" alt="..." style="width: 50%; height:auto; object-fit:cover;">
                 <div class="card-body" style="display:flex; flex-direction:column; justify-content:center;width:50%; padding:0;">
                     <h5 class="card-title" style="font-size: medium;">MAGISTER KOMPUTER S2 PROGRAM STUDI SISTEM INFORMASI ITB STIKOM BALI</h5>
                     <p style="font-size: small;">Kamu bisa kuliah 1,5 tahun dengan biaya yang terjangkau, fasilitas yang lengkap dan jadwal kuliah yang Fleksibel</p>

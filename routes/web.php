@@ -21,3 +21,6 @@ Route::get('/akademik', function () {
     return view('akademik');
 });
 
+Route::get('/penghargaan', function () {
+    return view('penghargaan');
+});

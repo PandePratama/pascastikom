@@ -10,31 +10,7 @@
 <body>
 
 <!-- navbar -->
-<nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #6C7ABB;" background-repeat: no-repeat; background-position: center; max-width: 1200px; margin: 0 auto;>
-    <a class="navbar-brand" href="#">
-    <img src="img/LogoITB.png" width="163" height="45" alt="logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{{ url('/about')}}" role="button" data-toggle="dropdown" aria-expanded="false">
-          About
-          </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#sejarah">Sejarah</a>
-              <a class="dropdown-item" href="#visi-misi">Visi Misi</a>
-              <a class="dropdown-item" href="#struktur">Struktur</a>
-            </div>
-          </li>
-            <a class="nav-link" href="{{ url('/akademik') }}">Akademik</a>
-            <a class="nav-link" href="#">Penghargaan</a>
-            <a class="nav-link" href="#">Media</a>
-        </div>
-    </div>
-</nav>
+<x-navbar></x-navbar>
 <!-- navbar end -->
 
 <!-- content -->
@@ -135,38 +111,7 @@
 <!-- end content -->
 
 <!-- footer -->
-<!-- <div class="card text-center"> -->
-  <div class="card-body text-center p-2" style="background-color: #D9D9D9; margin-top: 0px;">
-    <h5 class="card-title">Alamat Kampus</h5>
-    <div class="d-flex justify-content-center">
-        <div class="akkiri mx-3">
-            <img src="img/Group 1.png" alt="">
-            <p class="text-left">Kampus Terakreditasi B oleh BAN-PT dan<br>siap mendidik mahasiswa dalam bidang<br>Teknologi Indormasi</p>
-        </div>
-        <div class="akkanan mx-3">
-                <p class="text-left">Kampus Renon: <br>Jl. Raya Puputan No. 86 Renon – Denpasar <br>Telp: (0361) 244445</p>
-                <p class="text-left">Kampus Jimbaran: <br>Jl. Raya Kampus Udayana Jimbaran Bali <br>Telp : (0361) 8953537</p>
-                <p class="text-left">Kampus Abiansemal: <br>Jl. Janger Dauh Yeh Cani Kec. Abiansemal <br>Kabupaten Badung, Bali <br>Telp : 0856-3700-803</p>
-        </div>
-    </div>
-    <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a> -->
-  </div>
-
-  <!-- footer -->
-  <div class="card-footer text-muted" style="background-color: #6C7ABB; display: flex; justify-content: space-between; align-items: center; bottom: 0;">
-    <div class="social-media">
-        <a href="#"><i class="bi bi-instagram text-white mx-2" style="font-size: 35px;"></i></a>
-        <a href="#"><i class="bi bi-facebook text-white mx-2" style="font-size: 35px;"></i></a>
-        <a href="#"><i class="bi bi-twitter text-white mx-2" style="font-size: 35px;"></i></a>
-    </div>
-    <div class="copyright" style="color: white;">
-        &copy; All Right Reserved 2024, Pusat Komputer dan Jaringan ITB STIKOM Bali
-    </div>
-  </div>
-
-<!-- end footer -->
-
+<x-footer></x-footer>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>

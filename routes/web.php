@@ -21,6 +21,10 @@ Route::get('/akademik', function () {
     return view('akademik');
 });
 
+Route::get('/media', function () {
+    return view('media');
+});
+
 Route::get('/penghargaan', function () {
     return view('penghargaan');
 });

@@ -28,8 +28,8 @@
               <a class="dropdown-item" href="{{ url('/akademik#persyaratan')}}">Persyaratan</a>
             </div>
           </li>
-            <a class="nav-link" href="#">Penghargaan</a>
-            <a class="nav-link" href="#">Media</a>
+            <a class="nav-link" href="{{ url('/penghargaan')}}">Penghargaan</a>
+            <a class="nav-link" href="{{ url('/media')}}">Media</a>
         </div>
     </div>
 </nav>

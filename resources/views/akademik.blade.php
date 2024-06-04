@@ -7,6 +7,7 @@
   <title>Akademik</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -80,7 +81,7 @@
   <div id="biaya" class="container">
     <div class="row">
       <div class="col-sm">
-        <img src="img/biayakuliah.png" alt="" style="width: 440px; height: 500px;">
+        <img src="img/biayakuliah.png" alt="" style="width: 350px; height: 400px;">
       </div>
       <div class="col-sm">
         <h4>Biaya Perkuliahan</h4>
@@ -100,7 +101,7 @@
   </div>
 
   <section id="persyaratan" style="background-color: #0B1D6F; position:relative; padding: 50px;">
-    <img src="img/ornamen.png" alt="Corner Image" class="corner-image top-left" style="position:absolute; top: 0px; left:0px; transform:rotate(180deg); width: 400px; height: 400px;">
+    <img src="img/ornamen.png" alt="Corner Image" class="corner-image top-left" style="position:absolute; top: 0px; left:0px; transform:rotate(180deg); width: 300px; height: 300px;">
     <div class="container px-lg-5 text-light my-5">
       <div class="row mx-lg-n5">
         <div class="col py-5 pl-5 pr-0">
@@ -111,14 +112,14 @@
             Mengisi Dokumen Registrasi <br>Ijazah S1 <br>KTP</p>
         </div>
         <div class="col py-5 px-0">
-          <img src="img/persyaratan.png" alt="persyaratan">
+          <img src="img/persyaratan.png" alt="persyaratan" style="width: 300px;">
         </div>
       </div>
     </div>
     <div class="text-center py-5">
       <img src="img/seleksi-penerimaan.png" class="img-fluid" alt="">
     </div>
-    <img src="img/ornamen.png" alt="Corner Image" class="corner-image bottom-right" style="position:absolute; bottom:0px; right:0px; width: 400px; height: 400px;">
+    <img src="img/ornamen.png" alt="Corner Image" class="corner-image bottom-right" style="position:absolute; bottom:0px; right:0px; width: 300px; height: 300px;">
   </section>
 
   <div>

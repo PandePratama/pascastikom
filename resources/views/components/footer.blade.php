@@ -4,13 +4,11 @@
     <h5 class="card-title">Alamat Kampus</h5>
     <div class="d-flex justify-content-center">
         <div class="akkiri mx-3">
-            <img src="img/Group 1.png" alt="">
+            <img src="img/pasca.png" alt="" style="width:100px; height: 100px;">
             <p class="text-left">Kampus Terakreditasi B oleh BAN-PT dan<br>siap mendidik mahasiswa dalam bidang<br>Teknologi Indormasi</p>
         </div>
         <div class="akkanan mx-3">
             <p class="text-left">Kampus Renon: <br>Jl. Raya Puputan No. 86 Renon – Denpasar <br>Telp: (0361) 244445</p>
-            <p class="text-left">Kampus Jimbaran: <br>Jl. Raya Kampus Udayana Jimbaran Bali <br>Telp : (0361) 8953537</p>
-            <p class="text-left">Kampus Abiansemal: <br>Jl. Janger Dauh Yeh Cani Kec. Abiansemal <br>Kabupaten Badung, Bali <br>Telp : 0856-3700-803</p>
         </div>
     </div>
     <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -20,9 +18,9 @@
 <!-- footer -->
 <div class="card-footer text-muted" style="background-color: #6C7ABB; display: flex; justify-content: space-between; align-items: center; bottom: 0;">
     <div class="social-media">
-        <a href="#"><i class="bi bi-instagram text-white mx-2" style="font-size: 35px;"></i></a>
-        <a href="#"><i class="bi bi-facebook text-white mx-2" style="font-size: 35px;"></i></a>
-        <a href="#"><i class="bi bi-twitter text-white mx-2" style="font-size: 35px;"></i></a>
+        <a href="https://www.instagram.com/stikombali?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram text-white mx-2" style="font-size: 35px;"></i></a>
+        <a href="https://www.facebook.com/STIKOM.Bali/?locale=id_ID"><i class="bi bi-facebook text-white mx-2" style="font-size: 35px;"></i></a>
+        <a href="https://twitter.com/itbstikombali"><i class="bi bi-twitter text-white mx-2" style="font-size: 35px;"></i></a>
     </div>
     <div class="copyright" style="color: white;">
         &copy; All Right Reserved 2024, Pusat Komputer dan Jaringan ITB STIKOM Bali

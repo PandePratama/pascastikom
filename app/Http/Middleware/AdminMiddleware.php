@@ -10,12 +10,10 @@ class AdminMiddleware
 {
     public function handle(Request $request, Closure $next)
     {
-        // Tambahkan logika untuk memeriksa apakah pengguna adalah admin
-        if (!Auth::check() || !Auth::user()->is_admin) {
+        if (!Auth::guard('admin')->check()) {
             return redirect('/login');
         }
 
         return $next($request);
     }
 }
-

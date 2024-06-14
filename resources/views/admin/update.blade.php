@@ -61,12 +61,12 @@
 <body>
     <div class="container">
         <h1>Admin Dashboard</h1>
-        <form method="POST" action="{{ url('/news') }}" enctype="multipart/form-data">
+        <form method="POST" action="{{ route('submit') }}" enctype="multipart/form-data">
             @csrf
-            <input type="text" name="title" placeholder="Title" required>
-            <input type="file" name="image" required>
-            <input type="text" name="summary" placeholder="Summary" required>
-            <input type="text" name="link" placeholder="Link" required>
+            <input type="text" id="name" name="name" placeholder="Title" required>
+            <input type="file" id="file" name="file" required>
+            <input type="text" id="text_data" name="text_data" placeholder="Summary" required>
+            <input type="text" id="url" name="url" placeholder="Link" required>
             <button type="submit">Submit</button>
         </form>
         <form method="POST" action="{{ route('logout') }}">

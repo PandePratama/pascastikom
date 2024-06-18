@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminAuthController;
 use App\Http\Controllers\FormDataController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\MediaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,6 +41,9 @@ Route::get('/login', [AdminAuthController::class, 'showLoginForm'])->name('login
 Route::post('/login', [AdminAuthController::class, 'login']);
 Route::post('/logout', [AdminAuthController::class, 'logout'])->name('logout');
 Route::post('/submit', [FormDataController::class, 'store'])->name('submit');
+Route::get('/media', [MediaController::class, 'media']);
+
+
 
 // Menghapus route duplikat dan memastikan middleware group tidak tumpang tindih
 Route::middleware(['admin'])->group(function () {
@@ -48,3 +52,5 @@ Route::middleware(['admin'])->group(function () {
         return view('admin.update');
     });
 });
+
+

@@ -30,6 +30,9 @@ class FormDataController extends Controller
             'url' => $validatedData['url']
         ]);
 
+
         return redirect()->route('dashboard')->with('success', 'Data has been saved successfully.');
     }
+
+    
 }

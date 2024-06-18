@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Update</title>
     <style>
         body {
@@ -56,6 +58,14 @@
         .container button:hover {
             background-color: #0056b3;
         }
+
+        .btn {
+            margin-top: 10px;
+             border: none;
+             cursor: pointer;
+             background-color: red;
+             width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -69,10 +79,12 @@
             <input type="text" id="url" name="url" placeholder="Link" required>
             <button type="submit">Submit</button>
         </form>
-        <form method="POST" action="{{ route('logout') }}">
-            @csrf
-            <button type="submit">Logout</button>
-        </form>
+        
+        <a href="{{ url('/dashboard') }}" class="btn btn-success">
+                            Kembali
+                        </a>
+        
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

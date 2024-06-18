@@ -17,7 +17,7 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/', function () {
-    return view('about');
+    return view('landingpage');
 });
 
 Route::get('/about', function () {

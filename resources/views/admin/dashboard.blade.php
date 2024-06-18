@@ -39,7 +39,9 @@
                     <th scope="row">{{ $index + 1 }}</th>
                     <td>{{ $item->name }}</td>
                     <td>{{ $item->text_data }}</td>
-                    <td><img src="{{ asset('storage/' . $item->file_path) }}" alt="Image" width="50"></td>
+                    <td>
+                        <img src="{{ asset('storage/' . $item->file_path) }}" alt="Image" width="50" class="img-thumbnail" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-image="{{ asset('storage/' . $item->file_path) }}">
+                    </td>
                     <td>
                         <a href="{{ url('/update') }}" class="btn btn-success">
                             <i class="bi bi-pencil"></i>
@@ -54,6 +56,35 @@
     </table>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel">Image Preview</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+                <img id="modalImage" src="" alt="Image" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var imageModal = document.getElementById('imageModal');
+    imageModal.addEventListener('show.bs.modal', function (event) {
+        var button = event.relatedTarget;
+        var imageUrl = button.getAttribute('data-bs-image');
+        var modalImage = imageModal.querySelector('#modalImage');
+        modalImage.src = imageUrl;
+    });
+</script>
+<form method="POST" action="{{ route('logout') }}">
+            @csrf
+            <button>Logout</button>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

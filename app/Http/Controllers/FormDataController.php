@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\FormData;
+use App\Models\Media;
 
 class FormDataController extends Controller
 {
@@ -28,6 +29,20 @@ class FormDataController extends Controller
             'file_path' => $filePath,
             'text_data' => $validatedData['text_data'],
             'url' => $validatedData['url']
+        ]);
+
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'description' => 'required|string',
+            'file' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+        ]);
+    
+        $filePath = $request->file('file')->store('uploads', 'public');
+    
+        Media::create([
+            'title' => $request->input('title'),
+            'description' => $request->input('description'),
+            'file_path' => $filePath,
         ]);
 
         return redirect()->route('dashboard')->with('success', 'Data has been saved successfully.');

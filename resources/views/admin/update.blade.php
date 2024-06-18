@@ -69,10 +69,7 @@
             <input type="text" id="url" name="url" placeholder="Link" required>
             <button type="submit">Submit</button>
         </form>
-        <form method="POST" action="{{ route('logout') }}">
-            @csrf
-            <button type="submit">Logout</button>
-        </form>
+        <a href="{{ route('dashboard') }}">Kembali ke Dashboard</a>
     </div>
 </body>
 </html>

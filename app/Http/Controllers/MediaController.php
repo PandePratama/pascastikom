@@ -9,8 +9,8 @@ class MediaController extends Controller
 {
     public function media()
     {
-        $mediaItems = FormData::orderBy('created_at', 'desc')->take(9)->get();
-        return view('media', compact('mediaItems'));
+        $data = FormData::orderBy('created_at', 'desc')->take(9)->get();
+        return view('media', compact('data'));
     }
 
     public function store(Request $request)
@@ -30,5 +30,13 @@ class MediaController extends Controller
         ]);
 
         return redirect()->route('media')->with('success', 'Media uploaded successfully.');
+    }
+
+    public function destroy($id)
+    {
+        $item = FormData::findOrFail($id);
+        $item->delete();
+
+        return redirect()->route('dashboard')->with('success', 'Data berhasil dihapus.');
     }
 }

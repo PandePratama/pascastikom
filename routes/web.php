@@ -43,6 +43,13 @@ Route::post('/logout', [AdminAuthController::class, 'logout'])->name('logout');
 Route::post('/submit', [FormDataController::class, 'store'])->name('submit');
 Route::get('/media', [MediaController::class, 'media']);
 
+Route::get('/media', [MediaController::class, 'media'])->name('media.index');
+Route::post('/media', [MediaController::class, 'store'])->name('media.store');
+Route::delete('/media/{id}', [MediaController::class, 'destroy'])->name('media.destroy');
+Route::delete('/media', [MediaController::class, 'deleteAll'])->name('media.deleteAll');
+Route::get('/media/{id}/edit', [MediaController::class, 'edit'])->name('media.edit');
+Route::put('/media/{id}', [MediaController::class, 'update'])->name('media.update');
+
 
 
 // Menghapus route duplikat dan memastikan middleware group tidak tumpang tindih

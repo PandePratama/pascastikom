@@ -13,7 +13,7 @@
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
-            max-height: 4.5em; /* Sesuaikan dengan tinggi baris */
+            max-height: 5em; /* Sesuaikan dengan tinggi baris */
         }
     </style>
     <title>Media</title>
@@ -24,9 +24,9 @@
 
     <div class="container">
         <div class="row justify-content-center">
-            @foreach($mediaItems as $media)
+            @foreach($data as $media)
             <div class="col-md-6 col-lg-4 mb-1 mt-2 pr-0">
-                <div class="card" style="display: flex; flex-direction: row; align-items: flex-start; height: 20rem;">
+                <div class="card" style="display: flex; flex-direction: row; align-items: flex-start; height: 17rem;">
                     <img src="{{ asset('storage/' . $media->file_path) }}" class="card-img-top img-fluid" alt="..." style="width: 50%; height:auto; object-fit:cover;">
                     <div class="card-body" style="display:flex; flex-direction:column; justify-content:center;width:50%; padding:0;">
                         <h5 class="card-title" style="font-size: medium;">{{ $media->name }}</h5>

@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Update</title>
     <style>
         body {
@@ -56,23 +58,33 @@
         .container button:hover {
             background-color: #0056b3;
         }
+
+        .btn {
+            margin-top: 10px;
+             border: none;
+             cursor: pointer;
+             background-color: red;
+             width: 100%;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Admin Dashboard</h1>
-        <form method="POST" action="{{ url('/news') }}" enctype="multipart/form-data">
+        <form method="POST" action="{{ route('submit') }}" enctype="multipart/form-data">
             @csrf
-            <input type="text" name="title" placeholder="Title" required>
-            <input type="file" name="image" required>
-            <input type="text" name="summary" placeholder="Summary" required>
-            <input type="text" name="link" placeholder="Link" required>
+            <input type="text" id="name" name="name" placeholder="Title" required>
+            <input type="file" id="file" name="file" required>
+            <input type="text" id="text_data" name="text_data" placeholder="Summary" required>
+            <input type="text" id="url" name="url" placeholder="Link" required>
             <button type="submit">Submit</button>
         </form>
-        <form method="POST" action="{{ route('logout') }}">
-            @csrf
-            <button type="submit">Logout</button>
-        </form>
+        
+        <a href="{{ url('/dashboard') }}" class="btn btn-success">
+                            Kembali
+                        </a>
+        
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

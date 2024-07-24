@@ -115,7 +115,7 @@
   </section>
 
   <!-- Dosen Pengajar -->
-  <div class="container text-center border rounded mb-5 header-container" style="width: 100%; max-width: 250px; height: 50px; background-color:#6C7ABB; color:black; font-weight: bold; padding: top 2px;">
+  <div class="container text-center border rounded mb-5 header-container" style="width: 100%; max-width: 250px; height: 30px; background-color:#6C7ABB; color:black; font-weight: bold; padding: top 2px;">
     Direktori Dosen Pengajar
   </div>
 

@@ -7,8 +7,8 @@
             <img src="img/pasca.png" alt="" style="width:100px; height: 100px;">
             <p class="text-left">Kampus Terakreditasi B oleh BAN-PT dan<br>siap mendidik mahasiswa dalam bidang<br>Teknologi Indormasi</p>
         </div>
-        <div class="akkanan mx-3">
-            <p class="text-left">Kampus Renon: <br>Jl. Raya Puputan No. 86 Renon – Denpasar <br>Telp: (0361) 244445</p>
+        <div class="akkanan mx-3" style="margin-top: 40px;">
+            <p class="text-left">Kampus Renon : <br>Jl. Raya Puputan No. 86 Renon – Denpasar <br>Telp: (0361) 244445</p>
         </div>
     </div>
     <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>

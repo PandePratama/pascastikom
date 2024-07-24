@@ -34,10 +34,9 @@
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card" style="border-radius: 20px;">
             <img src="img/datascience.png" class="card-img-top" alt="Data Science" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-            <div class="card-body" style="background-color:#6C7ABB; height:370px; border-radius:0 0 20px 20px;">
+            <div class="card-body" style="background-color:#6C7ABB; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title text-light">Data Science</h5>
               <p class="card-text text-light" style="font-size: small;">Pada konsentrasi ini berfokus pada analisis terhadap data dengan menerapkan metode-metode kecerdasan artifisial. Selain itu pengembangan terhadap sistem informasi berbasiskan teknologi kecerdasan artifisial untuk mendukung proses bisnis dari skala menengah hingga enterprise terutama pada era society 5.0.</p>
-              <a href="#" class="btn btn-light mt-1" style="border-radius: 20px 20px 20px 20px; height:30px;">Selengkapnya</a>
             </div>
           </div>
         </div>
@@ -45,10 +44,9 @@
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card" style="border-radius: 20px;">
             <img src="img/medical informatic.png" class="card-img-top" alt="Medical Informatic" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-            <div class="card-body" style="background-color:#6C7ABB; height:370px; border-radius:0 0 20px 20px;">
+            <div class="card-body" style="background-color:#6C7ABB; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title text-light">Medical Informatic</h5>
               <p class="card-text text-light" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis terhadap data dengan menerapkan metode-metode kecerdasan artifisial. Selain itu pengembangan terhadap sistem informasi berbasiskan teknologi kecerdasan artifisial untuk mendukung proses bisnis dari skala menengah hingga enterprise terutama pada era society 5.0.</p>
-              <a href="#" class="btn btn-light mt-1" style="border-radius: 20px 20px 20px 20px; height:30px;">Selengkapnya</a>
             </div>
           </div>
         </div>
@@ -56,10 +54,9 @@
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card" style="border-radius: 20px;">
             <img src="img/cyber.png" class="card-img-top" alt="Cyber Security" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-            <div class="card-body" style="background-color:#6C7ABB; height:370px; border-radius:0 0 20px 20px;">
+            <div class="card-body" style="background-color:#6C7ABB; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title text-light">Cyber Security</h5>
               <p class="card-text text-light" style="font-size: small;">Pada konsentrasi ini berfokus pada analisis terhadap data dengan menerapkan metode-metode kecerdasan artifisial. Selain itu pengembangan terhadap sistem informasi berbasiskan teknologi kecerdasan artifisial untuk mendukung proses bisnis dari skala menengah hingga enterprise terutama pada era society 5.0.</p>
-              <a href="#" class="btn btn-light mt-1" style="border-radius: 20px 20px 20px 20px; height:30px;">Selengkapnya</a>
             </div>
           </div>
         </div>
@@ -67,10 +64,9 @@
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card" style="border-radius: 20px;">
             <img src="img/enterprice.png" class="card-img-top" alt="Enterprise System" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-            <div class="card-body" style="background-color: #6C7ABB; height:370px; border-radius:0 0 20px 20px;">
+            <div class="card-body" style="background-color: #6C7ABB; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title text-light">Enterprise System</h5>
               <p class="card-text text-light" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis terhadap data dengan menerapkan metode-metode kecerdasan artifisial. Selain itu pengembangan terhadap sistem informasi berbasiskan teknologi kecerdasan artifisial untuk mendukung proses bisnis dari skala menengah hingga enterprise terutama pada era society 5.0.</p>
-              <a href="#" class="btn btn-light mt-1" style="border-radius: 20px 20px 20px 20px; height:30px;">Selengkapnya</a>
             </div>
           </div>
         </div>

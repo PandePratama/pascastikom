@@ -12,9 +12,9 @@
           About
         </a>
         <div class="dropdown-menu" style="background-color:#6C7ABB;">
-          <a class="dropdown-item mb-2" style="background-color: #D9D9D9; border-radius:20px; text-align:center; padding:0; width: 100px" href="{{ url('/about#sejarah')}}">Sejarah</a>
-          <a class="dropdown-item mb-2" style="background-color: #D9D9D9; border-radius:20px; text-align:center; padding:0; width: 100px" href="{{ url('/about#visi-misi')}}">Visi Misi</a>
-          <a class="dropdown-item" style="background-color: #D9D9D9; border-radius:20px; text-align:center; padding:0; width: 100px" href="{{ url('/about#struktur')}}">Struktur</a>
+          <a class="dropdown-item mb-2" style="background-color: #D9D9D9; border-radius:20px; text-align:center; padding:0; " href="{{ url('/about#sejarah')}}">Sejarah</a>
+          <a class="dropdown-item mb-2" style="background-color: #D9D9D9; border-radius:20px; text-align:center; padding:0; " href="{{ url('/about#visi-misi')}}">Visi Misi</a>
+          <a class="dropdown-item" style="background-color: #D9D9D9; border-radius:20px; text-align:center; padding:0; " href="{{ url('/about#struktur')}}">Struktur</a>
         </div>
       </li>
       <li class="nav-item dropdown">

@@ -16,7 +16,7 @@
   <x-navbar></x-navbar>
 
   <!-- Content -->
-  <div id="peresmian" class="text-center" style="margin-top: 40px;">
+  <div id="prodi" class="text-center" style="margin-top: 40px;">
     <h4>MAGISTER KOMPUTER (S2) <br>PROGRAM STUDI SISTEM INFORMASI</h4>
     <p>Magister Komputer Program Studi (S2) Sistem Informasi Institut Teknologi dan Bisnis STIKOM Bali dengan gelar akademik M.Kom, memiliki bidang keahlian <br>
        Intelligence dan Secure System guna mendukung sektor ekonomi, pariwisata dan perusahaan.</p>
@@ -92,6 +92,7 @@
         <p>Potongan Alumni Rp.500.000/semester (untuk pembayaran cicil tiap semester)</p>
         <p>Biaya smt.5 dan selanjutnya jika hanya mengambil tesis adalah Rp.6.000.000</p>
         <p>Biaya sudah termasuk matrikulasi, ujian dan bimbingan (belum termasuk biaya wisuda)</p>
+        <a href="https://siap.stikom-bali.ac.id" class="btn btn-secondary mb-4" style="background-color: #0B1D6F;">Daftar Sekarang</a>
       </div>
     </div>
   </div>

@@ -16,15 +16,15 @@
   <x-navbar></x-navbar>
 
   <!-- Content -->
-  <div id="peresmian" class="text-center" style="margin-top: 40px;">
-    <h4>MAGISTER KOMPUTER (S2) <br>PROGRAM STUDI SISTEM INFORMASI</h4>
+  <div id="peresmian" class="text-center" style="margin-top: 0px; background-color: #D9D9D9;">
+    <h4 class="pt-5">MAGISTER KOMPUTER (S2) <br>PROGRAM STUDI SISTEM INFORMASI</h4>
     <p>Magister Komputer Program Studi (S2) Sistem Informasi Institut Teknologi dan Bisnis STIKOM Bali dengan gelar akademik M.Kom, memiliki bidang keahlian <br>
-       Intelligence dan Secure System guna mendukung sektor ekonomi, pariwisata dan perusahaan.</p>
+      Intelligence dan Secure System guna mendukung sektor ekonomi, pariwisata dan perusahaan.</p>
     <p>Kurikulum Magister Sistem Informasi disusun dengan memperhatikan profil lulusan yang sesuai dengan karakteristik KKNI level 8 (setara dengan lulusan S2).</p>
     <p>Berkarir dan menjadi professional di bidang Sistem Informasi.</p>
     <p>Memiliki wawasan global dan mampu bersaing di tingkat Internasional.</p>
     <p>Memiliki kemampuan menganalisis, mengevaluasi, mengintegrasi, dan mengembangkan metode serta pengetahuan sistem informasi.</p>
-    <p>Mampu mengidentifikasi, memformulasi, meneliti literatur, dan menyelesaikan masalah sistem informasi.</p>
+    <p class="pb-5">Mampu mengidentifikasi, memformulasi, meneliti literatur, dan menyelesaikan masalah sistem informasi.</p>
   </div>
 
   <section id="konsentrasi" class="py-5" style="margin-top: 40px;">

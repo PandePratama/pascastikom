@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
 </head>
 
 <body>
@@ -17,6 +22,28 @@
   <!-- navbar end -->
 
   <!-- content -->
+
+  <!-- landingpage -->
+  <section id="landingpage" class="container-fluid textColorPrimary custom-section" style="padding: 60px 20px 0px 80px; position: relative; background-color:#101f6a; color:white; min-height:100vh;">
+    <img src="img/ornamen.png" alt="Corner Image" class="corner-image top-left" style="position: absolute; width: 300px; height: 300px; transform:rotate(180deg); top: 0; left:0;" data-aos="fade-in">
+
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h3 class="ml-3" data-aos="fade-up">Program Pascasarjana</h3>
+        <h1 class="ml-3" data-aos="fade-up">MAGISTER KOMPUTER (S2) PROGRAM STUDI SISTEM INFORMASI</h1>
+        <p class="ml-3" data-aos="fade-up">Institut Teknologi & Bisnis (ITB) STIKOM Bali<br>Nomor Akreditasi: 3316/SK/BAN-PT/Ak.P/M/VIII/2023</p>
+        <a href="https://siap.stikom-bali.ac.id/" class="btn btn-danger mb-2 ml-3" data-aos="fade-up">Daftar Sekarang</a>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <img src="img/gedung2.jpg" alt="Image" class="img-fluid mr-5 zoom-in" style="height: 500px; width: 500px; border-radius: 15px;">
+      </div>
+    </div>
+
+    <img src="img/ornamen.png" alt="Corner Image" class="corner-image bottom-right" style="position: absolute; width: 300px; height: 300px; bottom:0; right:0;">
+  </section>
+  <!-- end landingpage -->
+
   <!-- sejarah -->
   <section style="background-image: url('img/gedung.jpg'); background-size: cover; background-position: center; height: 100%;">
     <div class=" h-100">
@@ -50,9 +77,9 @@
       <div>
         <h3>Misi</h3>
         <p>
-        1. Menyelenggarakan kegiatan Tri Dharma Perguruan Tinggi sesuai bidang ilmu pengetahuan, teknologi, dan seni. <br>
-        2. Mengembangkan Pascasarjana yang berkualitas, berdaya saing, dan unggul yang diakui secara internasional. <br>
-        3. Melaksanakan hilirisasi keilmuan di lingkup Program Pascasarjana yang dapat memberikan kebermanfaatan bagi mahasiswa.
+          1. Menyelenggarakan kegiatan Tri Dharma Perguruan Tinggi sesuai bidang ilmu pengetahuan, teknologi, dan seni. <br>
+          2. Mengembangkan Pascasarjana yang berkualitas, berdaya saing, dan unggul yang diakui secara internasional. <br>
+          3. Melaksanakan hilirisasi keilmuan di lingkup Program Pascasarjana yang dapat memberikan kebermanfaatan bagi mahasiswa.
         </p>
       </div>
       <h3>Tujuan</h3>
@@ -63,17 +90,17 @@
         4. Mengembangkan pengelolaan Institut Teknologi dan Bisnis (ITB) STIKOM Bali yang efisien dan produktif di dukung oleh sarana dan prasarana yang memadai dan bermutu. <br>
         5. Mengembangkan jaringan kerjasama dengan masyarakat kampus, alumni, industri, dan masyarakat. <br>
       </p>
-      
+
       <br>
       <h3>Visi Direktorat Prodi</h3>
       <p>Menjadi pascasarjana pada bidang sistem informasi berkualitas internasional berbasis intelligent dan secure system pada tahun 2030.</p>
-    <h3>Misi</h3>
-        <p>
+      <h3>Misi</h3>
+      <p>
         1. Menyelenggarakan pendidikan magister di bidang sistem informasi berbasis intelligent dan secure system bagi para mahasiswa agar mampu menjadi sumber daya manusia handal, unggul dan berkualitas serta diakui secara internasional guna mendukung sektor ekonomi, pariwisata, pemerintahan dan perusahaan. <br>
         2. Menyelenggarakan penelitian dan pengembangan ilmu pengetahuan dibidang Sistem Informasi yang memberikan dampak pada kemajuan disiplin akademik dan professional internasional. <br>
         3. Menyelenggarakan pengabdian kepada masyarakat dengan menerapkan ilmu-ilmu di bidang sistem informasi.
-        </p>
-    <img src="img/ornamen.png" alt="Corner Image" class="corner-image bottom-image" style="width: 300px; height: 300px; position: absolute; bottom: 0; right: 0;">
+      </p>
+      <img src="img/ornamen.png" alt="Corner Image" class="corner-image bottom-image" style="width: 300px; height: 300px; position: absolute; bottom: 0; right: 0;">
   </section>
 
   <!-- struktur organisasi -->
@@ -102,16 +129,29 @@
           <img src="img/3.jpg" class="rounded mx-auto d-block mb-3 img-fluid" alt="Direktur Pascasarjana">
         </div>
 
-        <div class="row align-items-center py-5" style="background-color: #D9D9D9; color:black;">
-          <div class="col-md-6 text-center mb-4 mb-md-0">
-            <h5 class="py-3">Sekretaris Prodi Magister Sistem Informasi</h5>
-            <img src="img/image 16.png" class="rounded mx-auto d-block img-fluid" alt="Foto 1">
+        <div class="container">
+          <div class="row justify-content-center align-items-center py-5" style="background-color: #D9D9D9; color:black;">
+            <div class="col-md-3 text-center mb-4 mb-md-0 mr-5">
+              <h5 class="py-3">Sekretaris Prodi Magister Sistem Informasi</h5>
+              <img src="img/Nandia.jpg" class="rounded mx-auto d-block img-fluid" alt="Foto 1">
+            </div>
+            <div class="col-md-3 text-center mb-4 mb-md-0 ml-5">
+              <h5 class="py-3">Koordinator Akademik Pascasarjana</h5>
+              <img src="img/Tubagus.jpg" class="rounded mx-auto d-block img-fluid" alt="Foto 2">
+            </div>
           </div>
-          <div class="col-md-6 text-center mb-4 mb-md-0">
-            <h5 class="py-3">Koordinator Akademik Pascasarjana</h5>
-            <img src="img/image 15.png" class="rounded mx-auto d-block img-fluid" alt="Foto 2">
+          <div class="row justify-content-center align-items-center py-5" style="background-color: #D9D9D9; color:black;">
+            <div class="col-md-3 text-center mb-4 mb-md-0 mr-5">
+              <h5 class="py-3">Staff Pengelola Pascasarjana</h5>
+              <img src="img/Wira.jpg" class="rounded mx-auto d-block img-fluid" alt="Foto 3">
+            </div>
+            <div class="col-md-3 text-center mb-4 mb-md-0 ml-5">
+              <h5 class="py-3">Staff Pengelola Pascasarjana</h5>
+              <img src="img/Wulan.jpg" class="rounded mx-auto d-block img-fluid" alt="Foto 4">
+            </div>
           </div>
         </div>
+
 
       </div>
     </div>
@@ -170,6 +210,35 @@
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2LcSo/jwBFOjLl3Fw5yTzgJOfdwtFP7iomWtpj6MO9" crossorigin="anonymous"></script>
+
+
+  <!-- Existing body content -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200, // Durasi animasi dalam milidetik
+    });
+  </script>
+
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const elements = document.querySelectorAll('.zoom-in, .fade-in');
+
+      function checkInView() {
+        elements.forEach(el => {
+          const rect = el.getBoundingClientRect();
+          if (rect.top < window.innerHeight && rect.bottom >= 0) {
+            el.classList.add('in-view');
+          }
+        });
+      }
+      window.addEventListener('scroll', checkInView);
+      checkInView(); // Initial check
+    });
+  </script>
+
 
 </body>
 

@@ -19,7 +19,7 @@
 <div class="card-footer text-muted" style="background-color: #6C7ABB; display: flex; justify-content: space-between; align-items: center; bottom: 0;">
     <div class="social-media">
         <a href="https://www.instagram.com/stikombali?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="bi bi-instagram text-white mx-2" style="font-size: 35px;"></i></a>
-        <a href="https://twitter.com/itbstikombali"><i class="bi bi-whatsapp text-white mx-2" style="font-size: 35px;"></i></a>
+        <a href="https:"><i class="bi bi-whatsapp text-white mx-2" style="font-size: 35px;"></i></a>
         
     </div>
     <div class="copyright" style="color: white;">

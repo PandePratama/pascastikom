@@ -78,15 +78,16 @@
     </section>
 
     <!-- Struktur Organisasi -->
-    <div id="struktur" class="idx text-center py-5">
+    <div id="struktur" class="idx text-center py-4">
         <h3>Struktur Organisasi</h3>
         <h5>Pascasarjana ITB STIKOM Bali</h5>
-        <div class="p-3 rounded d-inline-block" style="background-color: #6C7ABB;">
-            <img src="img/Struktur organisasi.png" alt="Struktur Organisasi" class="img-fluid rounded">
+        <br>
+        <div class=" rounded d-inline-block">
+            <img src="img/STRUKTURPASCA.jpg" alt="Struktur Organisasi" class="img-fluid">
         </div>
     </div>
 
-    <!-- Additional Section -->
+    <!-- Additional Section 
     <section id="" class="text-light position-relative" style="background-color: #0B1D6F; position: relative;">
         <img src="img/ornamen.png" alt="Corner Image" class="corner-image top-image" style="transform: rotate(180deg); width: 300px; height: 300px; position: absolute; top: 0; left: 0;">
         <div class="container mb-5">
@@ -129,67 +130,79 @@
                 <div class="row align-items-center py-5" style="background-color: #D9D9D9; color:black;">
                     <div class="col-md-6 text-center mb-4 mb-md-0">
                         <h5 class="py-3">Sekretaris Prodi Magister Sistem Informasi</h5>
-                        <img src="img/image 16.png" class="rounded mx-auto d-block mb-3 img-fluid" alt="Foto 1">
+                        <img src="img/Nandia.jpg" class="rounded mx-auto d-block mb-3 img-fluid" alt="Foto 1" style="max-width: 275px;">
                         <h6>I Gusti Ayu Nandia Lestari, S.Kom., M.Kom</h6>
                     </div>
                     <div class="col-md-6 text-center mb-4 mb-md-0">
                         <h5 class="py-3">Koordinator Akademik Pascasarjana</h5>
-                        <img src="img/image 15.png" class="rounded mx-auto d-block mb-3 img-fluid" alt="Foto 2">
+                        <img src="img/tubagus.jpg" class="rounded mx-auto d-block mb-3 img-fluid" alt="Foto 2" style="max-width: 275px;">
                         <h6>Tubagus Mahendra Kusuma, S.E., M.Si</h6>
+                    </div>
+                </div>
+                <h5 class="py-3">Starf Pengelola Pascasarjana</h5>
+                <div class="row align-items-center py-5" style="background-color: #D9D9D9; color:black;">
+                    <div class="col-md-6 text-center mb-4 mb-md-0">
+                        <img src="img/Wira.jpg" class="rounded mx-auto d-block mb-3 img-fluid" alt="Foto 1" style="max-width: 275px;">
+                        <h6>Wira Anggara Darmawan, Amd.Kom</h6>
+                    </div>
+                    <div class="col-md-6 text-center mb-4 mb-md-0">
+                        <img src="img/Wulan.jpg" class="rounded mx-auto d-block mb-3 img-fluid" alt="Foto 2" style="max-width: 275px;">
+                        <h6>Ni Luh Putu Wulandarini, S.Kom</h6>
                     </div>
                 </div>
             </div>
         </div>
         <img src="img/ornamen.png" alt="Corner Image" class="corner-image bottom-image" style="width: 300px; height: 300px; position: absolute; bottom: 0; right: 0;">
     </section>
+    -->
 
     <!-- Dosen Pengajar -->
-    <div class="container text-center border rounded mb-5 header-container" style="width: 100%; max-width: 250px; height: 30px; background-color:#6C7ABB; color:black; font-weight: bold; padding: top 2px;">
+    <div class="container text-center border rounded mb-5 header-container" style="width: 100%; max-width: 250px; height: 30px; background-color:#6C7ABB; color:black; font-weight: bold;">
         Direktori Dosen Pengajar
     </div>
 
     <!-- Image Grid -->
-    <div class="container">
+    <div class="container" style="">
         <div class="img-container">
             <div class="img-wrapper">
-                <a href="https://link-ke-profile-dosen.com">
+                <a href="">
                 <img src="img/2.jpg" alt="Dosen 1">
                 <span class="img-name">Prof. Dr. I Made Bandem</span>
             </div>
             <div class="img-wrapper">
-                <a href="https://link-ke-profile-dosen.com">
+                <a href="https://scholar.google.com/citations?hl=id&user=o5p089MAAAAJ">
                 <img src="img/8.jpg" alt="Dosen 2">
                 <span class="img-name">Dr. Dadang Hermawan</span>
             </div>
             <div class="img-wrapper">
-            <a href="https://link-ke-profile-dosen.com">
+            <a href="https://scholar.google.com/citations?user=HGeM9xwAAAAJ&hl=id&oi=ao">
                 <img src="img/6.jpg" alt="Dosen 3">
                 <span class="img-name" >Dr. Roy Rudolf Huizen, S.T., M.T</span>
             </div>
             <div class="img-wrapper">
-            <a href="https://link-ke-profile-dosen.com">
+            <a href="https://scholar.google.com/citations?user=igzQmigAAAAJ&hl=id&oi=ao">
                 <img src="img/3.jpg" alt="Dosen 4">
                 <span class="img-name">Dr. Dandy Pramana Hostiadi, S.Kom., M.T</span>
             </div>
         </div>
         <div class="img-container">
             <div class="img-wrapper">
-            <a href="https://link-ke-profile-dosen.com">
+            <a href="https://scholar.google.com/citations?user=0icLc7QAAAAJ&hl=id&oi=ao">
                 <img src="img/5.jpg" alt="Dosen 5">
                 <span class="img-name">Dr. Gede Angga Pradipta, S.T., M.Eng</span>
             </div>
             <div class="img-wrapper">
-            <a href="https://link-ke-profile-dosen.com">
+            <a href="https://scholar.google.com/citations?user=cSku1GYAAAAJ&hl=id&oi=ao">
                 <img src="img/4.jpg" alt="Dosen 6">
                 <span class="img-name">Dr. Evi Triandini, S.P., M.Eng</span>
             </div>
             <div class="img-wrapper">
-            <a href="https://link-ke-profile-dosen.com">
+            <a href="https://scholar.google.com/citations?user=fFjHpfAAAAAJ&hl=id&oi=ao">
                 <img src="img/1.jpg" alt="Dosen 7">
                 <span class="img-name">Dr. Putu Desiana Wulaning Ayu., S.T., M.T</span>
             </div>
             <div class="img-wrapper">
-            <a href="https://link-ke-profile-dosen.com">
+            <a href="https://scholar.google.com/citations?user=98py7mQAAAAJ&hl=id&oi=ao">
                 <img src="img/7.jpg" alt="Dosen 8">
                 <span class="img-name">Dr. Putri Srinadi, S.E, M.M.Kom</span>
             </div>

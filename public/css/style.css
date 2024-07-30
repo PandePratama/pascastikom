@@ -60,3 +60,20 @@
 .img-wrapper:hover .img-name {
     opacity: 1;
 }
+
+/* Contoh animasi untuk fade-in dan zoom-in */
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.fade-in.in-view {
+    opacity: 1;
+}
+
+.zoom-in {
+    transform: scale(0.8);
+    transition: transform 1s ease-in-out;
+}
+.zoom-in.in-view {
+    transform: scale(1);
+}

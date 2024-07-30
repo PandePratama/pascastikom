@@ -33,8 +33,16 @@ Route::get('/media', function () {
     return view('media');
 });
 
-Route::get('/penghargaan', function () {
-    return view('penghargaan');
+Route::get('/kegiatan', function () {
+    return view('kegiatan');
+});
+
+Route::get('/akreditasi', function () {
+    return view('akreditasi');
+});
+
+Route::get('/prodi', function () {
+    return view('prodi');
 });
 
 Route::get('/login', [AdminAuthController::class, 'showLoginForm'])->name('login');

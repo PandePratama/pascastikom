@@ -16,83 +16,72 @@
   <x-navbar></x-navbar>
 
   <!-- Content -->
-  <div id="prodi" class="text-center mt-5">
-    <h4>MAGISTER KOMPUTER (S2) <br>PROGRAM STUDI SISTEM INFORMASI</h4>
-    <p>Magister Komputer Program Studi (S2) Sistem Informasi Institut Teknologi dan Bisnis STIKOM Bali dengan gelar akademik M.Kom, memiliki bidang keahlian <br>
-      Intelligence dan Secure System guna mendukung sektor ekonomi, pariwisata dan perusahaan.</p>
-    <p>Kurikulum Magister Sistem Informasi disusun dengan memperhatikan profil lulusan yang sesuai dengan karakteristik KKNI level 8 (setara dengan lulusan S2).</p>
-    <p>Berkarir dan menjadi professional di bidang Sistem Informasi.</p>
-    <p>Memiliki wawasan global dan mampu bersaing di tingkat Internasional.</p>
-    <p>Memiliki kemampuan menganalisis, mengevaluasi, mengintegrasi, dan mengembangkan metode serta pengetahuan sistem informasi.</p>
-    <p>Mampu mengidentifikasi, memformulasi, meneliti literatur, dan menyelesaikan masalah sistem informasi.</p>
-  </div>
-
   <div id="kurikulum" class="text-center" style="margin-top: 40px;">
     <h4>Kurikulum Program Pascasarjana <br>ITB STIKOM Bali</h4>
-    <p>Program pascasarjana ITB STIKOM Bali memiliki beban sebanyak 56 SKS selama masa studi.</p>
+    Program pascasarjana ITB STIKOM Bali memiliki beban sebanyak 56 SKS selama masa studi.<br> Kalender akademik dapat dilihat pada <a class="link-opacity-100" href="https://elearning.stikom-bali.ac.id/">elearning.stikom-bali.ac.id</a>
+     atau <a class="link-opacity-100" href="https://sion.stikom-bali.ac.id/login">sion.stikom-bali.ac.id</a>
+    </p>
+
   </div>
-  <div class="container text-center">
+  <div class="container">
     <div class="row align-items-center">
       <div class="col mb-2 ml-5">
         <div class="card" style="width: 25rem;">
           <div class="card-body">
-            <h5 class="card-title">Semester</h5>
-            <h5 class="card-subtitle mb-2 text-body-secondary">I</h5>
-            <p class="text-center">
-              Big Data Analytic (3 sks)<br>
-              Digital Enterpreneur (3 sks)<br>
-              Advanced Security System (3 sks)<br>
-              Advanced Machine Learning (3 sks)<br>
-              Scientific Metodologi Penelitian (3 sks)<br>
-              Teknologi dan Digitalisasi Budaya (3 sks)
-            </p>
+            <h5 class="card-title">Semester I</h5>
+            <ul>
+              <li>Big Data Analytic (3 sks)</li>
+              <li>Digital Enterpreneur (3 sks)</li>
+              <li>Advanced Security System (3 sks)</li>
+              <li>Advanced Machine Learning (3 sks)</li>
+              <li>Scientific Metodologi Penelitian (3 sks)</li>
+              <li>Teknologi dan Digitalisasi Budaya (3 sks)</li>
+            </ul>
+
           </div>
         </div>
       </div>
       <div class="col mb-2 ml-5">
         <div class="card" style="width: 25rem;">
           <div class="card-body">
-            <h5 class="card-title">Semester</h5>
-            <h5 class="card-subtitle mb-2 text-body-secondary">II</h5>
-            <p class="card-center">
-              Desain Riset (3 sks) <br>
-              Transformasi IS (3 sks) <br>
-              MK Konsentrasi 1 (3 sks) <br>
-              MK Konsentrasi 2 (3 sks) <br>
-              MK Konsentrasi 3 (3 sks) <br>
-              Teknik Publikasi Ilmiah (3 sks)
-            </p>
+            <h5 class="card-title">Semester II</h5>
+              <ul>
+                <li>Desain Riset (3 sks)</li>
+                <li>Transformasi IS (3 sks)</li>
+                <li>MK Konsentrasi 1 (3 sks)</li>
+                <li>MK Konsentrasi 2 (3 sks)</li>
+                <li>MK Konsentrasi 3 (3 sks)</li>
+                <li>Teknik Publikasi Ilmiah (3 sks)</li>
+              </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container text-center">
+  <div class="container">
     <div class="row align-items-center">
       <div class="col mb-2 ml-5">
         <div class="card" style="width: 25rem;">
           <div class="card-body">
-            <h5 class="card-title">Semester</h5>
-            <h5 class="card-subtitle mb-2 text-body-secondary">III</h5>
-            <p class="text-center">
-              Publikasi (4 sks)<br>
-              Seminar Tesis (4 sks)<br>
-              Proposal Tesis (4 sks)
-            </p>
+            <h5 class="card-title">Semester III</h5>
+            <ul>
+              <li>Publikasi (4 sks)</li>
+              <li>Seminar Tesis (4 sks)</li>
+              <li>Proposal Tesis (4 sks)</li>
+            </ul>
           </div>
         </div>
       </div>
       <div class="col mb-2 ml-5">
         <div class="card" style="width: 25rem;">
           <div class="card-body">
-            <h5 class="card-title">Semester</h5>
-            <h5 class="card-subtitle mb-2 text-body-secondary">IV</h5>
-            <p class="card-center">
-              Tesis (8 sks) <br>
+            <h5 class="card-title">Semester IV</h5>
+            <ul>
+              <li>Tesis (8 sks) </li>
+            </ul>
               <br>
               <br>
-            </p>
           </div>
         </div>
       </div>
@@ -213,7 +202,7 @@
   </section>
 
   <div class="text-center">
-    <h3 class="py-5">Alur Perkuliahan Semester Pascasarjana <br>Program Magister Program Studi Sistem Informasi <br>ITB STIKOM Bali</h3>
+    <h3 class="py-5">Alur Perkuliahan Semester Pascasarjana <br>ITB STIKOM Bali</h3>
     <div class="py-5">
       <img src="img/alur_perkuliahan.png" class="img-fluid" alt="">
     </div>

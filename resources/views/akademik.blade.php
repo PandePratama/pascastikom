@@ -109,7 +109,7 @@
             <img src="img/datascience.png" class="card-img-top" alt="Data Science" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
             <div class="card-body text-light" style="background-color:#6C7ABB; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Data Science</h5>
-              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis dan pengolahan terhadap data dengan menerapkan metode- metode kecerdasan artifisial. Selain itu pengembangan terhadap sistem informasi berbasiskan teknologi kecerdasan atifislal untuk nendukung proses bisnis dari skala menengah hingga enterprise terutama pada era society5.0. </p>
+              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis dan pengolahan terhadap data dengan menerapkan metode- metode kecerdasan artifisial. Selain itu pengembangan terhadap sistem informasi berbasiskan teknologi kecerdasan atifislal untuk nendukung proses bisnis dari skala menengah hingga enterprise terutama pada era society5.0. </p>
               <ul style="font-size:small;">
                 <li>Advanced Data Mining</li>
                 <li>Deep Learning</li>
@@ -124,7 +124,7 @@
             <img src="img/medical informatic.png" class="card-img-top" alt="Medical Informatic" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
             <div class="card-body text-light" style="background-color:#6C7ABB; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Medical Informatic</h5>
-              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada pengembangan sistem berbasis kecerdasan artifisial yang lebih spesifik yaitu dalam mendukung sektor kesehatan dan kedokteran. Pengembangan sistem seperti Computer Aided Diagnosis (CAD), E-Health systern, Medical Image Recognition, dan pengemnbangan riset berbasis pendekatan deep learning pada objek medical.</p>
+              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada pengembangan sistem berbasis kecerdasan artifisial yang lebih spesifik yaitu dalam mendukung sektor kesehatan dan kedokteran. Pengembangan sistem seperti Computer Aided Diagnosis (CAD), E-Health systern, Medical Image Recognition, dan pengemnbangan riset berbasis pendekatan deep learning pada objek medical.</p>
               <ul style="font-size:small;">
                 <li>Medical Images Processing </li>
                 <li>Telematika Medis</li>
@@ -139,7 +139,7 @@
             <img src="img/cyber.png" class="card-img-top" alt="Cyber Security" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
             <div class="card-body text-light" style="background-color:#6C7ABB; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Cyber Security</h5>
-              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis sistem, data dan informasi melalui pemahaman kerentanan sistem informasi, security hole, keamanan infrastruktur, yang dapat digunakan sebagai dasar untuk mengembangkan model dan metode keamanan sistem berbasis kecerdasan buatan (AI) secara teori maupun implementasi. : </p>
+              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis sistem, data dan informasi melalui pemahaman kerentanan sistem informasi, security hole, keamanan infrastruktur, yang dapat digunakan sebagai dasar untuk mengembangkan model dan metode keamanan sistem berbasis kecerdasan buatan (AI) secara teori maupun implementasi. : </p>
               <ul style="font-size:small;">
                 <li>Cyber Security Government, Policy, Ethic and Law </li>
                 <li>Intelligence, Security, and Infosphere</li>
@@ -154,7 +154,7 @@
             <img src="img/enterprice.png" class="card-img-top" alt="Enterprise System" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
             <div class="card-body text-light" style="background-color: #6C7ABB; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Enterprise System</h5>
-              <p class="card-text" style="font-size: small;">Pada konsentrasi ini berfokus pada analisis terhadap sistemn informasi yang mneliputi pengembangan framework, optimasi pengolahan sistem dan data, pengolahan advance database, pengembangan model e- tourism dan enterprise, dan digital entrepreneurship untuk mendukung optirnalisasi pemanfaatan TIK pada industriskala Nasional maupun Internasional.</p>
+              <p class="card-text" style="font-size: small;">Pada konsentrasi ini berfokus pada analisis terhadap sistemn informasi yang mneliputi pengembangan framework, optimasi pengolahan sistem dan data, pengolahan advance database, pengembangan model e- tourism dan enterprise, dan digital entrepreneurship untuk mendukung optirnalisasi pemanfaatan TIK pada industriskala Nasional maupun Internasional.</p>
               <ul style="font-size:small;">
                 <li>Business Intelligence</li>
                 <li>Business Intelligence</li>

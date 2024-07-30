@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 </head>
 
 <body>
@@ -15,6 +19,26 @@
     <!-- Navbar -->
     <x-navbar></x-navbar>
     <!-- End Navbar -->
+
+    <section id="landingpage" class="container-fluid textColorPrimary custom-section" style="padding: 60px 20px 0px 80px; position: relative; background-color:#101f6a; color:white; min-height:100vh;">
+    <img src="img/ornamen.png" alt="Corner Image" class="corner-image top-left" style="position: absolute; width: 300px; height: 300px; transform:rotate(180deg); top: 0; left:0;" data-aos="fade-in">
+
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h3 class="ml-3" data-aos="fade-up">Program Pascasarjana</h3>
+        <h1 class="ml-3" data-aos="fade-up">MAGISTER KOMPUTER (S2) PROGRAM STUDI SISTEM INFORMASI</h1>
+        <p class="ml-3" data-aos="fade-up">Institut Teknologi & Bisnis (ITB) STIKOM Bali<br>Nomor Akreditasi: 3316/SK/BAN-PT/Ak.P/M/VIII/2023</p>
+        <a href="https://siap.stikom-bali.ac.id/" class="btn btn-danger mb-2 ml-3" data-aos="fade-up">Daftar Sekarang</a>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <img src="img/gedung2.jpg" alt="Image" class="img-fluid mr-5 zoom-in" style="height: 500px; width: 500px; border-radius: 15px;">
+      </div>
+    </div>
+
+    <img src="img/ornamen.png" alt="Corner Image" class="corner-image bottom-right" style="position: absolute; width: 300px; height: 300px; bottom:0; right:0;">
+  </section>
+  <!-- end landingpage -->
 
     <!-- Content -->
     <!-- Sejarah -->
@@ -165,7 +189,6 @@
     <div class="container" style="">
         <div class="img-container">
             <div class="img-wrapper">
-                <a href="">
                 <img src="img/2.jpg" alt="Dosen 1">
                 <span class="img-name">Prof. Dr. I Made Bandem</span>
             </div>
@@ -216,6 +239,33 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2LcSo/jwBFOjLl3Fw5yTzgJOfdwtFP7iomWtpj6MO9" crossorigin="anonymous"></script>
+
+    <!-- Existing body content -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200, // Durasi animasi dalam milidetik
+    });
+  </script>
+
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const elements = document.querySelectorAll('.zoom-in, .fade-in');
+
+      function checkInView() {
+        elements.forEach(el => {
+          const rect = el.getBoundingClientRect();
+          if (rect.top < window.innerHeight && rect.bottom >= 0) {
+            el.classList.add('in-view');
+          }
+        });
+      }
+      window.addEventListener('scroll', checkInView);
+      checkInView(); // Initial check
+    });
+  </script>
 
 </body>
 

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark shadow-lg" style="background-color: #101f6a;" background-repeat: no-repeat; background-position: center; max-width: 1200px; margin: 0 auto;>
   <a class="navbar-brand" href="">
+=======
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark shadow-lg" style="background-color: #6C7ABB;" background-repeat: no-repeat; background-position: center; max-width: 1200px; margin: 0 auto;>
+  <a class="navbar-brand" href="{{ url('/about')}}">
+>>>>>>> 550b0e2cd7a857848d46ebc21cc5c620d03fde39
     <img src="img/LogoITB.png" width="163" height="45" alt="logo">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

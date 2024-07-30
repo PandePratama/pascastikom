@@ -20,7 +20,11 @@
     <x-navbar></x-navbar>
     <!-- End Navbar -->
 
+<<<<<<< HEAD
     <section id="landingpage" class="container-fluid textColorPrimary custom-section" style="padding: 60px 20px 0px 80px; position: relative; background-color:#202C59; color:white; min-height:100vh;">
+=======
+    <section id="landingpage" class="container-fluid textColorPrimary custom-section" style="padding: 60px 20px 0px 80px; position: relative; background-color:#101f6a; color:white; min-height:100vh;">
+>>>>>>> 550b0e2cd7a857848d46ebc21cc5c620d03fde39
     <img src="img/ornamen.png" alt="Corner Image" class="corner-image top-left" style="position: absolute; width: 300px; height: 300px; transform:rotate(180deg); top: 0; left:0;" data-aos="fade-in">
 
     <div class="row align-items-center">
@@ -40,6 +44,7 @@
   </section>
   <!-- end landingpage -->
 
+<<<<<<< HEAD
 
 <!-- sambutan rektor -->
     <div class="container mt-5" id="sambutan">
@@ -95,6 +100,18 @@
                      Berawal dari bertemunya para pemerhati, pencinta dan praktisi pendidikan yakni Prof. Dr. Made Bandem, MA., (saat itu Rektor ISI Jogjakarta), Dr. Dadang Hermawan (praktisi pendidikan), Drs. Ida Bagus Dharmadiaksa, M.Si., Ak. (Dosen) dan Drs. Satria Dharma (praktisi pendidikan) pada tahun 2.000 yang begitu menaruh perhatian atas pesat dan dinamisnya perkembangan teknologi informasi dan komunikasi (TIK) di dunia termasuk di Indonesia dan Bali, namun di lain pihak perguruan tinggi bidang TIK sampai dengan jenjang sarjana belum ada.
                 
                 <p class="content-paragraph justify mx-3 mx-md-5" style="font-size: large;">
+=======
+    <!-- Content -->
+    <!-- Sejarah -->
+    <section style="background-image: url('img/gedung.jpg'); background-size: cover; background-position: center; height: 100%;">
+        <div class="h-100">
+            <div class="idx text-center d-flex flex-column justify-content-center align-items-center" style="background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); height: 100%;">
+                <h2 id="sejarah" class="mt-5">Institut Teknologi dan Bisnis STIKOM Bali</h2>
+                <p class="content-paragraph mx-3 mx-md-5" style="font-size: large;">
+                    Berawal dari bertemunya para pemerhati, pencinta dan praktisi pendidikan yakni Prof. Dr. Made Bandem, MA., (saat itu Rektor ISI Jogjakarta), Dr. Dadang Hermawan (praktisi pendidikan), Drs. Ida Bagus Dharmadiaksa, M.Si., Ak. (Dosen) dan Drs. Satria Dharma (praktisi pendidikan) pada tahun 2.000 yang begitu menaruh perhatian atas pesat dan dinamisnya perkembangan teknologi informasi dan komunikasi (TIK) di dunia termasuk di Indonesia dan Bali, namun di lain pihak perguruan tinggi bidang TIK sampai dengan jenjang sarjana belum ada.
+                </p>
+                <p class="content-paragraph mx-3 mx-md-5" style="font-size: large;">
+>>>>>>> 550b0e2cd7a857848d46ebc21cc5c620d03fde39
                     Maka pada tanggal 20 Mei 2001, berdirilah Yayasan Widya Dharma Shanti yang akan menjadi Badan Penyenggara Perguruan Tinggi Swasta dan selanjutnya diajukanlah ijin pendirian Institut Teknologi dan Bisnis (ITB) STIKOM Bali kepada Direktorat Jenderal Pendidikan Tinggi Kementerian Pendidikan Nasional.
                 </p>
                 <p class="content-paragraph justify mx-3 mx-md-5" style="font-size: large;">

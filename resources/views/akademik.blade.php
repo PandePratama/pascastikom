@@ -16,57 +16,150 @@
   <x-navbar></x-navbar>
 
   <!-- Content -->
-  <div id="peresmian" class="text-center" style="margin-top: 0px; background-color: #D9D9D9;">
-    <h4 class="pt-5">MAGISTER KOMPUTER (S2) <br>PROGRAM STUDI SISTEM INFORMASI</h4>
+  <div id="prodi" class="text-center mt-5">
+    <h4>MAGISTER KOMPUTER (S2) <br>PROGRAM STUDI SISTEM INFORMASI</h4>
     <p>Magister Komputer Program Studi (S2) Sistem Informasi Institut Teknologi dan Bisnis STIKOM Bali dengan gelar akademik M.Kom, memiliki bidang keahlian <br>
       Intelligence dan Secure System guna mendukung sektor ekonomi, pariwisata dan perusahaan.</p>
     <p>Kurikulum Magister Sistem Informasi disusun dengan memperhatikan profil lulusan yang sesuai dengan karakteristik KKNI level 8 (setara dengan lulusan S2).</p>
     <p>Berkarir dan menjadi professional di bidang Sistem Informasi.</p>
     <p>Memiliki wawasan global dan mampu bersaing di tingkat Internasional.</p>
     <p>Memiliki kemampuan menganalisis, mengevaluasi, mengintegrasi, dan mengembangkan metode serta pengetahuan sistem informasi.</p>
-    <p class="pb-5">Mampu mengidentifikasi, memformulasi, meneliti literatur, dan menyelesaikan masalah sistem informasi.</p>
+    <p>Mampu mengidentifikasi, memformulasi, meneliti literatur, dan menyelesaikan masalah sistem informasi.</p>
   </div>
+
+  <div id="kurikulum" class="text-center" style="margin-top: 40px;">
+    <h4>Kurikulum Program Pascasarjana <br>ITB STIKOM Bali</h4>
+    <p>Program pascasarjana ITB STIKOM Bali memiliki beban sebanyak 56 SKS selama masa studi.</p>
+  </div>
+  <div class="container text-center">
+    <div class="row align-items-center">
+      <div class="col mb-2 ml-5">
+        <div class="card" style="width: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title">Semester</h5>
+            <h5 class="card-subtitle mb-2 text-body-secondary">I</h5>
+            <p class="text-center">
+              Big Data Analytic (3 sks)<br>
+              Digital Enterpreneur (3 sks)<br>
+              Advanced Security System (3 sks)<br>
+              Advanced Machine Learning (3 sks)<br>
+              Scientific Metodologi Penelitian (3 sks)<br>
+              Teknologi dan Digitalisasi Budaya (3 sks)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-2 ml-5">
+        <div class="card" style="width: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title">Semester</h5>
+            <h5 class="card-subtitle mb-2 text-body-secondary">II</h5>
+            <p class="card-center">
+              Desain Riset (3 sks) <br>
+              Transformasi IS (3 sks) <br>
+              MK Konsentrasi 1 (3 sks) <br>
+              MK Konsentrasi 2 (3 sks) <br>
+              MK Konsentrasi 3 (3 sks) <br>
+              Teknik Publikasi Ilmiah (3 sks)
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <div class="row align-items-center">
+      <div class="col mb-2 ml-5">
+        <div class="card" style="width: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title">Semester</h5>
+            <h5 class="card-subtitle mb-2 text-body-secondary">III</h5>
+            <p class="text-center">
+              Publikasi (4 sks)<br>
+              Seminar Tesis (4 sks)<br>
+              Proposal Tesis (4 sks)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-2 ml-5">
+        <div class="card" style="width: 25rem;">
+          <div class="card-body">
+            <h5 class="card-title">Semester</h5>
+            <h5 class="card-subtitle mb-2 text-body-secondary">IV</h5>
+            <p class="card-center">
+              Tesis (8 sks) <br>
+              <br>
+              <br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <section id="konsentrasi" class="py-5" style="margin-top: 40px;">
     <div class="container">
       <div class="row">
         <!-- Card 1 -->
         <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card" style="border-radius: 20px;">
+          <div class="card " style="border-radius: 20px; height: 600px;">
             <img src="img/datascience.png" class="card-img-top" alt="Data Science" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
             <div class="card-body text-light" style="background-color:#6C7ABB; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Data Science</h5>
-              <p class="card-text" style="font-size: small;">Pada konsentrasi ini berfokus pada analisis terhadap data dengan menerapkan metode-metode kecerdasan artifisial. Selain itu pengembangan terhadap sistem informasi berbasiskan teknologi kecerdasan artifisial untuk mendukung proses bisnis dari skala menengah hingga enterprise terutama pada era society 5.0.</p>
+              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis dan pengolahan terhadap data dengan menerapkan metode- metode kecerdasan artifisial. Selain itu pengembangan terhadap sistem informasi berbasiskan teknologi kecerdasan atifislal untuk nendukung proses bisnis dari skala menengah hingga enterprise terutama pada era society5.0. </p>
+              <ul style="font-size:small;">
+                <li>Advanced Data Mining</li>
+                <li>Deep Learning</li>
+                <li>Causal Modeling</li>
+              </ul>
             </div>
           </div>
         </div>
         <!-- Card 2 -->
         <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card" style="border-radius: 20px;">
+          <div class="card" style="border-radius: 20px; height: 600px;">
             <img src="img/medical informatic.png" class="card-img-top" alt="Medical Informatic" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
             <div class="card-body text-light" style="background-color:#6C7ABB; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Medical Informatic</h5>
-              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis terhadap data dengan menerapkan metode-metode kecerdasan artifisial. Selain itu pengembangan terhadap sistem informasi berbasiskan teknologi kecerdasan artifisial untuk mendukung proses bisnis dari skala menengah hingga enterprise terutama pada era society 5.0.</p>
+              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada pengembangan sistem berbasis kecerdasan artifisial yang lebih spesifik yaitu dalam mendukung sektor kesehatan dan kedokteran. Pengembangan sistem seperti Computer Aided Diagnosis (CAD), E-Health systern, Medical Image Recognition, dan pengemnbangan riset berbasis pendekatan deep learning pada objek medical.</p>
+              <ul style="font-size:small;">
+                <li>Medical Images Processing </li>
+                <li>Telematika Medis</li>
+                <li>Informatika Biomedis</li>
+              </ul>
             </div>
           </div>
         </div>
         <!-- Card 3 -->
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card" style="border-radius: 20px;">
+        <div class="col-lg-3  col-md-6 mb-4" > 
+          <div class="card" style="border-radius: 20px; height: 600px;">
             <img src="img/cyber.png" class="card-img-top" alt="Cyber Security" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
             <div class="card-body text-light" style="background-color:#6C7ABB; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Cyber Security</h5>
-              <p class="card-text" style="font-size: small;">Pada konsentrasi ini berfokus pada analisis terhadap data dengan menerapkan metode-metode kecerdasan artifisial. Selain itu pengembangan terhadap sistem informasi berbasiskan teknologi kecerdasan artifisial untuk mendukung proses bisnis dari skala menengah hingga enterprise terutama pada era society 5.0.</p>
+              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis sistem, data dan informasi melalui pemahaman kerentanan sistem informasi, security hole, keamanan infrastruktur, yang dapat digunakan sebagai dasar untuk mengembangkan model dan metode keamanan sistem berbasis kecerdasan buatan (AI) secara teori maupun implementasi. : </p>
+              <ul style="font-size:small;">
+                <li>Cyber Security Government, Policy, Ethic and Law </li>
+                <li>Intelligence, Security, and Infosphere</li>
+                <li>Ethical Hacking</li>
+              </ul>
             </div>
           </div>
         </div>
         <!-- Card 4 -->
         <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card" style="border-radius: 20px;">
+          <div class="card" style="border-radius: 20px; height: 600px;">
             <img src="img/enterprice.png" class="card-img-top" alt="Enterprise System" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
             <div class="card-body text-light" style="background-color: #6C7ABB; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Enterprise System</h5>
-              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis terhadap data dengan menerapkan metode-metode kecerdasan artifisial. Selain itu pengembangan terhadap sistem informasi berbasiskan teknologi kecerdasan artifisial untuk mendukung proses bisnis dari skala menengah hingga enterprise terutama pada era society 5.0.</p>
+              <p class="card-text" style="font-size: small;">Pada konsentrasi ini berfokus pada analisis terhadap sistemn informasi yang mneliputi pengembangan framework, optimasi pengolahan sistem dan data, pengolahan advance database, pengembangan model e- tourism dan enterprise, dan digital entrepreneurship untuk mendukung optirnalisasi pemanfaatan TIK pada industriskala Nasional maupun Internasional.</p>
+              <ul style="font-size:small;">
+                <li>Business Intelligence</li>
+                <li>Business Intelligence</li>
+                <li>System Enterprise Mutakhir</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -92,6 +185,7 @@
         <p>Potongan Alumni Rp.500.000/semester (untuk pembayaran cicil tiap semester)</p>
         <p>Biaya smt.5 dan selanjutnya jika hanya mengambil tesis adalah Rp.6.000.000</p>
         <p>Biaya sudah termasuk matrikulasi, ujian dan bimbingan (belum termasuk biaya wisuda)</p>
+        <a href="https://siap.stikom-bali.ac.id" class="btn btn-secondary mb-4" style="background-color: #0B1D6F;">Daftar Sekarang</a>
       </div>
     </div>
   </div>

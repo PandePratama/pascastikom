@@ -22,7 +22,8 @@
           Akademik
         </a>
         <div class="dropdown-menu" style="background-color:#6C7ABB;">
-          <a class="dropdown-item mb-2" style="background-color: #D9D9D9; border-radius:20px; text-align:center; padding:0;" href="{{ url('/akademik#peresmian')}}">Peresmian</a>
+          <a class="dropdown-item mb-2" style="background-color: #D9D9D9; border-radius:20px; text-align:center; padding:0;" href="{{ url('/akademik#prodi')}}">Prodi</a>
+          <a class="dropdown-item mb-2" style="background-color: #D9D9D9; border-radius:20px; text-align:center; padding:0;" href="{{ url('/akademik#kurikulum')}}">Kurikulum</a>
           <a class="dropdown-item mb-2" style="background-color: #D9D9D9; border-radius:20px; text-align:center; padding:0;" href="{{ url('/akademik#konsentrasi')}}">Konsentrasi</a>
           <a class="dropdown-item mb-2" style="background-color: #D9D9D9; border-radius:20px; text-align:center; padding:0;" href="{{ url('/akademik#biaya')}}">Biaya</a>
           <a class="dropdown-item" style="background-color: #D9D9D9; border-radius:20px; text-align:center; padding:0;" href="{{ url('/akademik#persyaratan')}}">Persyaratan</a>

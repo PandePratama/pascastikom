@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+}
+body {
+    background-color: #101f6a;
+}
+.container form {
+    margin: 100px;
+    /* padding: 10px; */
+}
+
+.textColorPrimary {
+    color: #fefdfb;
+}
+
+body,
+html {
+    overflow: hidden;
+}
+.custom-section {
+    height: 100vh; /* Set height to full viewport height */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: relative; /* Position relative for absolute positioning of images */
+    overflow: hidden; /* Hide overflow to prevent scrolling */
+}
+
+/* Added custom styles for alignment */
+.align-center {
+    display: flex;
+    align-items: center;
+}

@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akademik</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,83 +17,74 @@
   <x-navbar></x-navbar>
 
   <!-- Content -->
-  <div id="prodi" class="text-center mt-5">
-    <h4>MAGISTER KOMPUTER (S2) <br>PROGRAM STUDI SISTEM INFORMASI</h4>
-    <p>Magister Komputer Program Studi (S2) Sistem Informasi Institut Teknologi dan Bisnis STIKOM Bali dengan gelar akademik M.Kom, memiliki bidang keahlian <br>
-      Intelligence dan Secure System guna mendukung sektor ekonomi, pariwisata dan perusahaan.</p>
-    <p>Kurikulum Magister Sistem Informasi disusun dengan memperhatikan profil lulusan yang sesuai dengan karakteristik KKNI level 8 (setara dengan lulusan S2).</p>
-    <p>Berkarir dan menjadi professional di bidang Sistem Informasi.</p>
-    <p>Memiliki wawasan global dan mampu bersaing di tingkat Internasional.</p>
-    <p>Memiliki kemampuan menganalisis, mengevaluasi, mengintegrasi, dan mengembangkan metode serta pengetahuan sistem informasi.</p>
-    <p>Mampu mengidentifikasi, memformulasi, meneliti literatur, dan menyelesaikan masalah sistem informasi.</p>
-  </div>
-
   <div id="kurikulum" class="text-center" style="margin-top: 40px;">
-    <h4>Kurikulum Program Pascasarjana <br>ITB STIKOM Bali</h4>
-    <p>Program pascasarjana ITB STIKOM Bali memiliki beban sebanyak 56 SKS selama masa studi.</p>
+    <h2>Kurikulum Program Pascasarjana <br>ITB STIKOM Bali</h2>
+    <p class="py-3">
+      Program pascasarjana ITB STIKOM Bali memiliki beban sebanyak 56 SKS selama masa studi. 
+      <br>
+      Kalender akademik dapat dilihat pada <a class="link-opacity-100" href="https://elearning.stikom-bali.ac.id/">elearning.stikom-bali.ac.id</a> atau <a class="link-opacity-100" href="https://sion.stikom-bali.ac.id/login">sion.stikom-bali.ac.id</a>
+    </p>
+     
   </div>
-  <div class="container text-center">
+  <div class="container">
     <div class="row align-items-center">
       <div class="col mb-2 ml-5">
         <div class="card" style="width: 25rem;">
           <div class="card-body">
-            <h5 class="card-title">Semester</h5>
-            <h5 class="card-subtitle mb-2 text-body-secondary">I</h5>
-            <p class="text-center">
-              Big Data Analytic (3 sks)<br>
-              Digital Enterpreneur (3 sks)<br>
-              Advanced Security System (3 sks)<br>
-              Advanced Machine Learning (3 sks)<br>
-              Scientific Metodologi Penelitian (3 sks)<br>
-              Teknologi dan Digitalisasi Budaya (3 sks)
-            </p>
+            <h5 class="card-title">Semester I</h5>
+            <ul>
+              <li>Big Data Analytic (3 sks)</li>
+              <li>Digital Enterpreneur (3 sks)</li>
+              <li>Advanced Security System (3 sks)</li>
+              <li>Advanced Machine Learning (3 sks)</li>
+              <li>Scientific Metodologi Penelitian (3 sks)</li>
+              <li>Teknologi dan Digitalisasi Budaya (3 sks)</li>
+            </ul>
+
           </div>
         </div>
       </div>
       <div class="col mb-2 ml-5">
         <div class="card" style="width: 25rem;">
           <div class="card-body">
-            <h5 class="card-title">Semester</h5>
-            <h5 class="card-subtitle mb-2 text-body-secondary">II</h5>
-            <p class="card-center">
-              Desain Riset (3 sks) <br>
-              Transformasi IS (3 sks) <br>
-              MK Konsentrasi 1 (3 sks) <br>
-              MK Konsentrasi 2 (3 sks) <br>
-              MK Konsentrasi 3 (3 sks) <br>
-              Teknik Publikasi Ilmiah (3 sks)
-            </p>
+            <h5 class="card-title">Semester II</h5>
+            <ul>
+              <li>Desain Riset (3 sks)</li>
+              <li>Transformasi IS (3 sks)</li>
+              <li>MK Konsentrasi 1 (3 sks)</li>
+              <li>MK Konsentrasi 2 (3 sks)</li>
+              <li>MK Konsentrasi 3 (3 sks)</li>
+              <li>Teknik Publikasi Ilmiah (3 sks)</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container text-center">
+  <div class="container">
     <div class="row align-items-center">
       <div class="col mb-2 ml-5">
         <div class="card" style="width: 25rem;">
           <div class="card-body">
-            <h5 class="card-title">Semester</h5>
-            <h5 class="card-subtitle mb-2 text-body-secondary">III</h5>
-            <p class="text-center">
-              Publikasi (4 sks)<br>
-              Seminar Tesis (4 sks)<br>
-              Proposal Tesis (4 sks)
-            </p>
+            <h5 class="card-title">Semester III</h5>
+            <ul>
+              <li>Publikasi (4 sks)</li>
+              <li>Seminar Tesis (4 sks)</li>
+              <li>Proposal Tesis (4 sks)</li>
+            </ul>
           </div>
         </div>
       </div>
       <div class="col mb-2 ml-5">
         <div class="card" style="width: 25rem;">
           <div class="card-body">
-            <h5 class="card-title">Semester</h5>
-            <h5 class="card-subtitle mb-2 text-body-secondary">IV</h5>
-            <p class="card-center">
-              Tesis (8 sks) <br>
-              <br>
-              <br>
-            </p>
+            <h5 class="card-title">Semester IV</h5>
+            <ul>
+              <li>Tesis (8 sks) </li>
+            </ul>
+            <br>
+            <br>
           </div>
         </div>
       </div>
@@ -100,16 +92,22 @@
   </div>
 
 
-  <section id="konsentrasi" class="py-5" style="margin-top: 40px;">
+  <section id="konsentrasi" class="py-5" style="margin-top: 20px;">
     <div class="container">
+      <h2 class="text-center py-5" >Konsenstrasi Program Pascasarjana <br>ITB STIKOM Bali</h2>
       <div class="row">
         <!-- Card 1 -->
         <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card " style="border-radius: 20px; height: 600px;">
-            <img src="img/datascience.png" class="card-img-top" alt="Data Science" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-            <div class="card-body text-light" style="background-color:#6C7ABB; height:290px; border-radius:0 0 20px 20px;">
+          <div class="card " style="border-radius: 20px; height: 525px;">
+            <img src="img/DataScience2.png" class="card-img-top" alt="Data Science"
+              style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+            <div class="card-body text-light"
+              style="background-color:#202C59; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Data Science</h5>
-              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis dan pengolahan terhadap data dengan menerapkan metode- metode kecerdasan artifisial. Selain itu pengembangan terhadap sistem informasi berbasiskan teknologi kecerdasan atifislal untuk nendukung proses bisnis dari skala menengah hingga enterprise terutama pada era society5.0. </p>
+              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis dan pengolahan
+                terhadap data dengan menerapkan metode- metode kecerdasan artifisial. Selain itu pengembangan terhadap
+                sistem informasi berbasiskan teknologi kecerdasan atifislal untuk nendukung proses bisnis dari skala
+                menengah hingga enterprise terutama pada era society5.0. </p>
               <ul style="font-size:small;">
                 <li>Advanced Data Mining</li>
                 <li>Deep Learning</li>
@@ -120,11 +118,16 @@
         </div>
         <!-- Card 2 -->
         <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card" style="border-radius: 20px; height: 600px;">
-            <img src="img/medical informatic.png" class="card-img-top" alt="Medical Informatic" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-            <div class="card-body text-light" style="background-color:#6C7ABB; height:290px; border-radius:0 0 20px 20px;">
+          <div class="card" style="border-radius: 20px; height: 525px;">
+            <img src="img/MedicalInformatic2.png" class="card-img-top" alt="Medical Informatic"
+              style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+            <div class="card-body text-light"
+              style="background-color:#202C59; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Medical Informatic</h5>
-              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada pengembangan sistem berbasis kecerdasan artifisial yang lebih spesifik yaitu dalam mendukung sektor kesehatan dan kedokteran. Pengembangan sistem seperti Computer Aided Diagnosis (CAD), E-Health systern, Medical Image Recognition, dan pengemnbangan riset berbasis pendekatan deep learning pada objek medical.</p>
+              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada pengembangan sistem
+                berbasis kecerdasan artifisial yang lebih spesifik yaitu dalam mendukung sektor kesehatan dan
+                kedokteran. Pengembangan sistem seperti Computer Aided Diagnosis (CAD), E-Health systern, Medical Image
+                Recognition, dan pengemnbangan riset berbasis pendekatan deep learning pada objek medical.</p>
               <ul style="font-size:small;">
                 <li>Medical Images Processing </li>
                 <li>Telematika Medis</li>
@@ -134,12 +137,17 @@
           </div>
         </div>
         <!-- Card 3 -->
-        <div class="col-lg-3  col-md-6 mb-4" > 
-          <div class="card" style="border-radius: 20px; height: 600px;">
-            <img src="img/cyber.png" class="card-img-top" alt="Cyber Security" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-            <div class="card-body text-light" style="background-color:#6C7ABB; height:290px; border-radius:0 0 20px 20px;">
+        <div class="col-lg-3  col-md-6 mb-4">
+          <div class="card" style="border-radius: 20px; height: 525px;">
+            <img src="img/CyberSecurity2.png" class="card-img-top" alt="Cyber Security"
+              style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+            <div class="card-body text-light"
+              style="background-color:#202C59; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Cyber Security</h5>
-              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis sistem, data dan informasi melalui pemahaman kerentanan sistem informasi, security hole, keamanan infrastruktur, yang dapat digunakan sebagai dasar untuk mengembangkan model dan metode keamanan sistem berbasis kecerdasan buatan (AI) secara teori maupun implementasi. : </p>
+              <p class="card-text" style="font-size:small;">Pada konsentrasi ini berfokus pada analisis sistem, data dan
+                informasi melalui pemahaman kerentanan sistem informasi, security hole, keamanan infrastruktur, yang
+                dapat digunakan sebagai dasar untuk mengembangkan model dan metode keamanan sistem berbasis kecerdasan
+                buatan (AI) secara teori maupun implementasi. : </p>
               <ul style="font-size:small;">
                 <li>Cyber Security Government, Policy, Ethic and Law </li>
                 <li>Intelligence, Security, and Infosphere</li>
@@ -149,13 +157,17 @@
           </div>
         </div>
         <!-- Card 4 -->
-        <div class="col-lg-3 col-md-6 mb-4">
-          <div class="card" style="border-radius: 20px; height: 600px;">
-            <img src="img/enterprice.png" class="card-img-top" alt="Enterprise System" style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-            <div class="card-body text-light" style="background-color: #6C7ABB; height:290px; border-radius:0 0 20px 20px;">
+        <div  class="col-lg-3 col-md-6 mb-4">
+          <div class="card" style="border-radius: 20px; height: 525px;">
+            <img src="img/EnterpriseSystem2.png" class="card-img-top" alt="Enterprise System"
+              style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
+            <div class="card-body text-light" style="background-color:#202C59; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Enterprise System</h5>
-              <p class="card-text" style="font-size: small;">Pada konsentrasi ini berfokus pada analisis terhadap sistemn informasi yang mneliputi pengembangan framework, optimasi pengolahan sistem dan data, pengolahan advance database, pengembangan model e- tourism dan enterprise, dan digital entrepreneurship untuk mendukung optirnalisasi pemanfaatan TIK pada industriskala Nasional maupun Internasional.</p>
-              <ul style="font-size:small;">
+              <p class="card-text" style="font-size: small;">Pada konsentrasi ini berfokus pada analisis terhadap
+                sistemn informasi yang mneliputi pengembangan framework, optimasi pengolahan sistem dan data, pengolahan
+                advance database, pengembangan model e- tourism dan enterprise, dan digital entrepreneurship untuk
+                mendukung optirnalisasi pemanfaatan TIK pada industriskala Nasional maupun Internasional.</p>
+              <ul id="biaya" style="font-size:small;">
                 <li>Business Intelligence</li>
                 <li>Business Intelligence</li>
                 <li>System Enterprise Mutakhir</li>
@@ -165,15 +177,15 @@
         </div>
       </div>
     </div>
-  </section>
+  </section >
 
-  <div id="biaya" class="container" style="margin-top: 30px">
+  <div class="container" style="margin-top: 100px">
     <div class="row">
-      <div class="col-sm">
+      <div class="col-sm text-center">
         <img src="img/biayakuliah.png" alt="" style="width: 350px; height: 400px;">
       </div>
       <div class="col-sm">
-        <h4>Biaya Perkuliahan</h4>
+        <h2>Biaya Perkuliahan</h2>
         <p>Biaya pendaftaran Rp.700.000 <br>
           Potongan Biaya Pendaftaran <br>
           Gelombang I : Rp.200.000 <br>
@@ -185,39 +197,47 @@
         <p>Potongan Alumni Rp.500.000/semester (untuk pembayaran cicil tiap semester)</p>
         <p>Biaya smt.5 dan selanjutnya jika hanya mengambil tesis adalah Rp.6.000.000</p>
         <p>Biaya sudah termasuk matrikulasi, ujian dan bimbingan (belum termasuk biaya wisuda)</p>
-        <a href="https://siap.stikom-bali.ac.id" class="btn btn-secondary mb-4" style="background-color: #0B1D6F;">Daftar Sekarang</a>
+        <a href="https://siap.stikom-bali.ac.id" class="btn btn-secondary mb-4"
+          style="background-color: #0B1D6F;">Daftar Sekarang</a>
       </div>
     </div>
   </div>
 
-  <section id="persyaratan" style="background-color: #0B1D6F; position:relative; padding: 50px;">
-    <img src="img/ornamen.png" alt="Corner Image" class="corner-image top-left" style="position:absolute; top: 0px; left:0px; transform:rotate(180deg); width: 300px; height: 300px;">
+  <section id="persyaratan" style="background-color: #202C59; position:relative; padding: 50px; margin-top: 70px">
+    <img src="img/ornamen.png" alt="Corner Image" class="corner-image top-left"
+      style="position:absolute; top: 0px; left:0px; transform:rotate(180deg); width: 300px; height: 300px;">
     <div class="container text-light my-5">
       <div class="row">
         <div class="col py-5 pl-5 pr-0">
-          <h5>Persyaratan Pendaftar</h5>
-          <p class="ml-5">Lulus S1/D4 semua Prodi <br>
-            Mengisi Form Pendaftaran <br>
-            Membayar Biaya Pendaftaran <br>
-            Mengisi Dokumen Registrasi <br>Ijazah S1 <br>KTP</p>
+          <h2>Persyaratan Pendaftar</h2>
+          <ol>
+            <li>Lulus S1/D4 semua Prodi</li>
+            <li>Mengisi Form Pendaftaran</li>
+            <li>Membayar Biaya Pendaftaran</li>
+            <li>Mengisi Dokumen Registrasi</li>
+            <li>Ijazah S1</li>
+            <li>KTP</li>
+          </ol>
         </div>
         <div class="col py-5 px-0">
-          <img src="img/persyaratan.png" alt="persyaratan" style="width: 300px;">
+          <img src="img/persyaratan3.jpg" alt="persyaratan" style="width: 500px; border-radius: 10px;">
         </div>
       </div>
     </div>
     <div class="text-center py-5">
-      <img src="img/seleksi-penerimaan.png" class="img-fluid" alt="">
+    <h2 style="color: white;">Alur Pendaftar dan Penerimaan <br> Calon Mahasiswa Pascasarjana</h2>
+      <img src="img/penerimaan3.png" class="img-fluid" style="width: 1500px; border-radius: 10px;">
     </div>
-    <img src="img/ornamen.png" alt="Corner Image" class="corner-image bottom-right" style="position:absolute; bottom:0px; right:0px; width: 300px; height: 300px;">
+    <img src="img/ornamen.png" alt="Corner Image" class="corner-image bottom-right"
+      style="position:absolute; bottom:0px; right:0px; width: 300px; height: 300px;">
   </section>
 
   <div class="text-center">
-    <h3 class="py-5">Alur Perkuliahan Semester Pascasarjana <br>Program Magister Program Studi Sistem Informasi <br>ITB STIKOM Bali</h3>
+    <h2 class="py-5">Alur Perkuliahan Semester Pascasarjana <br>ITB STIKOM Bali</h2>
     <div class="py-5">
       <img src="img/alur_perkuliahan.png" class="img-fluid" alt="">
     </div>
-    <h3 class="py-5">Alur Sidang Proposal - Sidang Tesis</h3>
+    <h2 class="py-5">Alur Sidang Proposal - Sidang Tesis</h2>
     <div class="pb-5">
       <img src="img/alur-sidang-tesis.png" class="img-fluid" alt="">
     </div>
@@ -227,8 +247,12 @@
   <x-footer></x-footer>
 
   <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

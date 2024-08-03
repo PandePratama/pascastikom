@@ -65,7 +65,10 @@
 
       <a class="nav-link" href="{{ url('/akreditasi')}}">Akreditasi</a>
       <a class="nav-link" href="{{ url('/kegiatan')}}">Kegiatan</a>
+      <a class="nav-link" href="{{ url('/tampil_pengumuman')}}">Pengumuman</a>
       <a class="nav-link" href="{{ url('/media')}}">Media</a>
+      <a class="nav-link" href="{{ url('/kerjasama')}}">Kerjasama</a>
+
     </div>
   </div>
 </nav>

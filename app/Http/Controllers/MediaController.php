@@ -4,13 +4,26 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\FormData;
+use App\Models\Media;
 
 class MediaController extends Controller
 {
-    public function media()
+    public function showMedia()
     {
-        $data = FormData::orderBy('created_at', 'desc')->take(9)->get();
+        $data = FormData::latest()->take(9)->get();
         return view('media', compact('data'));
+    }
+
+    public function showAllMedia()
+    {
+        $data = FormData::latest()->paginate(20); // Mengambil semua media dengan paginasi
+        return view('mediaall', compact('data'));
+    }
+
+    public function showLessMedia()
+    {
+        $data = FormData::latest()->take(9)->get(); // Mengambil media yang lebih sedikit
+        return view('mediaall', compact('data'));
     }
 
     public function store(Request $request)
@@ -38,5 +51,17 @@ class MediaController extends Controller
         $item->delete();
 
         return redirect()->route('dashboard')->with('success', 'Data berhasil dihapus.');
+    }
+
+    public function index()
+    {
+        $data = Media::latest()->take(9)->get();
+        return view('media.index', compact('data'));
+    }
+
+    public function showAll()
+    {
+        $data = Media::paginate(12); // Atur jumlah item per halaman sesuai kebutuhan
+        return view('media.all', compact('data'));
     }
 }

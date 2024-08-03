@@ -5,6 +5,7 @@ use App\Http\Controllers\AdminAuthController;
 use App\Http\Controllers\FormDataController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MediaController;
+use App\Http\Controllers\PengumumanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,6 +46,23 @@ Route::get('/prodi', function () {
     return view('prodi');
 });
 
+Route::get('/kerjasama', function () {
+    return view('kerjasama');
+});
+
+// Route::get('/tampil_pengumuman', function () {
+//     return view('tampil_pengumuman');
+// });
+
+// Route::get('/pengumuman', function () {
+//     return view('admin.pengumuman');
+// });
+
+// Route::get('/update_pengumuman', function () {
+//     return view('admin.update_pengumuman');
+// });
+
+
 Route::get('/login', [AdminAuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AdminAuthController::class, 'login']);
 Route::post('/logout', [AdminAuthController::class, 'logout'])->name('logout');
@@ -57,6 +75,14 @@ Route::delete('/media/{id}', [MediaController::class, 'destroy'])->name('media.d
 Route::delete('/media', [MediaController::class, 'deleteAll'])->name('media.deleteAll');
 Route::get('/media/{id}/edit', [MediaController::class, 'edit'])->name('media.edit');
 Route::put('/media/{id}', [MediaController::class, 'update'])->name('media.update');
+Route::get('/media', [MediaController::class, 'showMedia']);
+Route::get('/mediaall', [MediaController::class, 'showAllMedia']);
+
+Route::get('/media', [MediaController::class, 'showMedia'])->name('media.index');
+Route::get('/mediaall', [MediaController::class, 'showAllMedia'])->name('media.all');
+Route::get('/medialess', [MediaController::class, 'showLessMedia'])->name('media.less');
+
+
 
 
 
@@ -67,5 +93,22 @@ Route::middleware(['admin'])->group(function () {
         return view('admin.update');
     });
 });
+
+Route::middleware(['admin'])->group(function () {
+    Route::get('/update_pengumuman', [PengumumanController::class, 'create']);
+    Route::post('/submit2', [PengumumanController::class, 'store'])->name('submit2');
+    Route::get('/pengumuman', [PengumumanController::class, 'indexAdmin']);
+    Route::delete('/pengumuman/{id}', [PengumumanController::class, 'destroy'])->name('delete_pengumuman');
+});
+
+
+
+Route::get('/update_pengumuman', [PengumumanController::class, 'create']);
+Route::post('/submit2', [PengumumanController::class, 'store'])->name('submit2');
+Route::get('/pengumuman', [PengumumanController::class, 'indexAdmin']);
+Route::get('/tampil_pengumuman', [PengumumanController::class, 'indexUser']);
+Route::delete('/pengumuman/{id}', [PengumumanController::class, 'destroy'])->name('delete_pengumuman');
+
+
 
 

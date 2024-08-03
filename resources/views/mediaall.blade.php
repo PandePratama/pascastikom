@@ -12,15 +12,13 @@
         .text-truncate-ellipsis {
             display: -webkit-box;
             -webkit-line-clamp: 3;
-            /* Jumlah baris yang diizinkan */
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
             max-height: 5em;
-            /* Sesuaikan dengan tinggi baris */
         }
     </style>
-    <title>Media</title>
+    <title>Media All</title>
 </head>
 
 <body>
@@ -28,7 +26,6 @@
     <x-navbar></x-navbar>
 
     <div class="container">
-        <h2 class="row justify-content-center py-3">Media Informasi</h2>
         <div class="row justify-content-center">
             @foreach($data as $media)
                 <div class="col-md-6 col-lg-4 mb-1 mt-2 pr-0">
@@ -46,9 +43,9 @@
             @endforeach
         </div>
 
-        <!-- Tombol Lihat Semua Media -->
+        <!-- Tombol Kembali ke Halaman Media -->
         <div class="row justify-content-center mt-4 mb-4">
-            <a href="{{ route('media.all') }}" class="btn btn-secondary" style="background-color: #101f6a;">Lihat lebih banyak</a>
+            <a href="{{ route('media.index') }}" class="btn btn-secondary " style="background-color: #101f6a;">lihat lebih sedikit</a>
         </div>
     </div>
 

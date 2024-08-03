@@ -18,56 +18,39 @@ use App\Http\Controllers\PengumumanController;
 |
 */
 
+// Public Routes
 Route::get('/', function () {
     return view('about');
 });
-
 Route::get('/about', function () {
     return view('about');
 });
-
 Route::get('/akademik', function () {
     return view('akademik');
 });
-
 Route::get('/media', function () {
     return view('media');
 });
-
 Route::get('/kegiatan', function () {
     return view('kegiatan');
 });
-
 Route::get('/akreditasi', function () {
     return view('akreditasi');
 });
-
 Route::get('/prodi', function () {
     return view('prodi');
 });
-
 Route::get('/kerjasama', function () {
     return view('kerjasama');
 });
-
-// Route::get('/tampil_pengumuman', function () {
-//     return view('tampil_pengumuman');
-// });
-
-// Route::get('/pengumuman', function () {
-//     return view('admin.pengumuman');
-// });
-
-// Route::get('/update_pengumuman', function () {
-//     return view('admin.update_pengumuman');
-// });
-
+Route::get('/tampil_pengumuman', [PengumumanController::class, 'indexUser']);
 
 Route::get('/login', [AdminAuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AdminAuthController::class, 'login']);
 Route::post('/logout', [AdminAuthController::class, 'logout'])->name('logout');
 Route::post('/submit', [FormDataController::class, 'store'])->name('submit');
 Route::get('/media', [MediaController::class, 'media']);
+
 
 Route::get('/media', [MediaController::class, 'media'])->name('media.index');
 Route::post('/media', [MediaController::class, 'store'])->name('media.store');
@@ -85,30 +68,24 @@ Route::get('/medialess', [MediaController::class, 'showLessMedia'])->name('media
 
 
 
+// Pengumuman Routes
+Route::middleware(['admin'])->group(function () {
+    Route::get('/pengumuman', [PengumumanController::class, 'indexAdmin'])->name('pengumuman.index');
+    Route::get('/update_pengumuman', [PengumumanController::class, 'create']);
+    Route::get('/pengumuman', [PengumumanController::class, 'indexAdmin']);
+    Route::get('/tampil_pengumuman', [PengumumanController::class, 'indexUser']);
+    Route::post('/update_pengumuman', [PengumumanController::class, 'store'])->name('submit2');       
+    Route::post('/update_pengumuman/{id}', [PengumumanController::class, 'store'])->name('update_pengumuman'); 
+    Route::post('/submit2', [PengumumanController::class, 'store'])->name('pengumuman.store');
+    Route::delete('/pengumuman/{id}', [PengumumanController::class, 'destroy'])->name('delete_pengumuman');
+});
 
-// Menghapus route duplikat dan memastikan middleware group tidak tumpang tindih
+
+// Admin Routes with Middleware
 Route::middleware(['admin'])->group(function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
     Route::get('/update', function () {
         return view('admin.update');
     });
 });
-
-Route::middleware(['admin'])->group(function () {
-    Route::get('/update_pengumuman', [PengumumanController::class, 'create']);
-    Route::post('/submit2', [PengumumanController::class, 'store'])->name('submit2');
-    Route::get('/pengumuman', [PengumumanController::class, 'indexAdmin']);
-    Route::delete('/pengumuman/{id}', [PengumumanController::class, 'destroy'])->name('delete_pengumuman');
-});
-
-
-
-Route::get('/update_pengumuman', [PengumumanController::class, 'create']);
-Route::post('/submit2', [PengumumanController::class, 'store'])->name('submit2');
-Route::get('/pengumuman', [PengumumanController::class, 'indexAdmin']);
-Route::get('/tampil_pengumuman', [PengumumanController::class, 'indexUser']);
-Route::delete('/pengumuman/{id}', [PengumumanController::class, 'destroy'])->name('delete_pengumuman');
-
-
-
 

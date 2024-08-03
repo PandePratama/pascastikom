@@ -23,10 +23,6 @@ class AdminAuthController extends Controller
             return redirect()->intended('/dashboard');
         }
 
-        if (Auth::guard('admin')->attempt($credentials)) {
-            return redirect()->intended('/pengumuman');
-        }
-
         Log::warning('Login attempt failed', ['credentials' => $credentials]);
 
         return redirect('/login')->withErrors('Login details are not valid');

@@ -125,7 +125,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">Stategi</th>
+                            <th scope="row">Strategi</th>
                             <td>
                                 <ol>
                                     <li>Pengembangan Kurikulum:</li>
@@ -180,7 +180,7 @@
                             <td>Reguler</td>
                         </tr>
                         <tr>
-                            <th scope="row">Durasi Program</th>
+                            <th scope="row">Masa Studi</th>
                             <td>4 semester</td>
                         </tr>
                     </tbody>

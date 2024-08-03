@@ -54,7 +54,7 @@
             href="{{ url('/akademik#kurikulum')}}">Kurikulum</a>
           <a class="dropdown-item mb-2"
             style="background-color: #D9D9D9; border-radius:0; text-align:center; padding:0;"
-            href="{{ url('/akademik#konsentrasi')}}">Konsentrasi</a>
+            href="{{ url('/akademik#konsentrasi')}}">Fokus Penelitian</a>
           <a class="dropdown-item mb-2"
             style="background-color: #D9D9D9; border-radius:0; text-align:center; padding:0;"
             href="{{ url('/akademik#biaya')}}">Biaya</a>

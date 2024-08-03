@@ -36,6 +36,8 @@
 .img-wrapper {
     position: relative;
     margin: 15px;
+    transition: 1s;
+    overflow: hidden;
 }
 
 .img-wrapper img {
@@ -61,6 +63,26 @@
     opacity: 1;
 }
 
+.img-wrapper:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+.img-wrapper figcaption {
+    color: white;
+    position: absolute;
+    bottom: -5rem;
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+    transition: all 500ms;
+}
+
+.img-wrapper:hover figcaption {
+    bottom: 0rem;
+}
+
 /* Contoh animasi untuk fade-in dan zoom-in */
 .fade-in {
     opacity: 0;
@@ -76,8 +98,28 @@
 }
 .zoom-in.in-view {
     transform: scale(1);
-<<<<<<< HEAD
 }
-=======
+
+.box:hover {
+    transform: scale(1.3);
+    z-index: 2;
+    transition: 500ms;
 }
->>>>>>> 550b0e2cd7a857848d46ebc21cc5c620d03fde39
+
+.slideshow-container {
+    overflow: hidden;
+    width: 500px; /* Lebar gambar */
+    height: 400px; /* Tinggi gambar */
+    border-radius: 15px;
+}
+
+.slideshow-inner {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.slideshow-image {
+    min-width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}

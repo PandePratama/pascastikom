@@ -28,7 +28,11 @@
                 <h3 class="ml-3" data-aos="fade-up">Program Pascasarjana</h3>
                 <h1 class="ml-3" data-aos="fade-up">MAGISTER KOMPUTER (S2) PROGRAM STUDI SISTEM INFORMASI</h1>
                 <p class="ml-3" data-aos="fade-up">Institut Teknologi & Bisnis (ITB) STIKOM Bali<br>Nomor Akreditasi: 3316/SK/BAN-PT/Ak.P/M/VIII/2023</p>
-                <a href="https://siap.stikom-bali.ac.id/" class="btn btn-danger mb-2 ml-3 px-0" data-aos="fade-up">Daftar Sekarang</a>
+                <div class="tombol">
+                    <a href="https://siap.stikom-bali.ac.id" button type="button" class="btn btn-danger ml-4" data-aos="fade-up" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                        Daftar Sekarang
+                    </a>
+                </div>
             </div>
 
             <div class="col-md-6 text-center py-5 d-flex justify-content-center align-items-center">

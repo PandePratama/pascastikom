@@ -54,7 +54,7 @@
             href="{{ url('/akademik#kurikulum')}}">Kurikulum</a>
           <a class="dropdown-item mb-2"
             style="background-color: #D9D9D9; border-radius:0; text-align:center; padding:0;"
-            href="{{ url('/akademik#konsentrasi')}}">Konsentrasi</a>
+            href="{{ url('/akademik#konsentrasi')}}">Fokus Penelitian</a>
           <a class="dropdown-item mb-2"
             style="background-color: #D9D9D9; border-radius:0; text-align:center; padding:0;"
             href="{{ url('/akademik#biaya')}}">Biaya</a>
@@ -65,7 +65,10 @@
 
       <a class="nav-link" href="{{ url('/akreditasi')}}">Akreditasi</a>
       <a class="nav-link" href="{{ url('/kegiatan')}}">Kegiatan</a>
+      <a class="nav-link" href="{{ url('/tampil_pengumuman')}}">Pengumuman</a>
       <a class="nav-link" href="{{ url('/media')}}">Media</a>
+      <a class="nav-link" href="{{ url('/kerjasama')}}">Kerjasama</a>
+
     </div>
   </div>
 </nav>

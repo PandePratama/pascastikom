@@ -19,7 +19,7 @@
 
     <div class="container text-center py-3">
         <h2 class="py-3">Kegiatan Pascasarjana</h2>
-        <h6 class="text-left">1. Kegiatan Ajar Mengajar</h6>
+        <h6 class="text-left mt-5">1. Pendidikan</h6>
         <div class="row">
             <div class="box col-lg-3 col-md-6 col-sm-12 mb-3">
                 <img src="/img/ajar1.jpg" class="card-img-top" style="border-radius:10px; width: 108%; height: auto;" alt="direktur">
@@ -37,7 +37,7 @@
     </div>
 
     <div class="container text-center py-2">
-        <h6 class="text-left">2. Kegiatan LPPM</h6>
+        <h6 class="text-left">2. Pengabdian</h6>
         <div class="row">
             <div class="box col-lg-3 col-md-6 col-sm-12 mb-3">
                 <img src="/img/LPPM1.jpg" class="card-img-top" style="border-radius:10px; width: 108%; height: auto;" alt="direktur">
@@ -54,8 +54,26 @@
         </div>
     </div>
 
+    <div class="container text-center py-2">
+        <h6 class="text-left">3. Penelitian</h6>
+        <div class="row">
+            <div class="box col-lg-3 col-md-6 col-sm-12 mb-3">
+                <img src="/img/bssn1.jpg" class="card-img-top" style="border-radius:10px; width: 108%; height: auto;" alt="direktur">
+            </div>
+            <div class="box col-lg-3 col-md-6 col-sm-12 mb-3">
+                <img src="/img/bssn2.jpg" class="card-img-top" style="border-radius:10px; width: 108%; height: auto;" alt="direktur">
+            </div>
+            <div class="box col-lg-3 col-md-6 col-sm-12 mb-3">
+                <img src="/img/bssn3.jpg" class="card-img-top" style="border-radius:10px; width: 108%; height: auto;" alt="direktur">
+            </div>
+            <div class="box col-lg-3 col-md-6 col-sm-12 mb-3">
+                <img src="/img/bssn4.jpg" class="card-img-top" style="border-radius:10px; width: 108%; height: auto;" alt="direktur">
+            </div>
+        </div>
+    </div>
+
     <div class="container text-center py-2" style="margin-bottom: 70px;">
-        <h6 class="text-left">3. Kegiatan Kunjungan BSSN</h6>
+        <h6 class="text-left">3. Kegiatan lainnya</h6>
         <div class="row">
             <div class="box col-lg-3 col-md-6 col-sm-12 mb-3">
                 <img src="/img/bssn1.jpg" class="card-img-top" style="border-radius:10px; width: 108%; height: auto;" alt="direktur">

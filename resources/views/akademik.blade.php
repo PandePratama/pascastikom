@@ -94,7 +94,7 @@
 
   <section id="konsentrasi" class="py-5" style="margin-top: 20px;">
     <div class="container">
-      <h2 class="text-center py-5" >Fokus Penelitian Program Pascasarjana <br>ITB STIKOM Bali</h2>
+      <h2 class="text-center py-5" >Konsenstrasis Program Pascasarjana <br>ITB STIKOM Bali</h2>
       <div class="row">
         <!-- Card 1 -->
         <div class="col-lg-3 col-md-6 mb-4">

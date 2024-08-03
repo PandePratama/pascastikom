@@ -18,7 +18,7 @@
 
   <div id="akreditasi" class="container text-center mt-5" style="margin-bottom: 200px;">
     <h2 class="py-2">Akreditasi Program Studi S2 Sistem Informasi</h2>
-    <p class="text-justify">
+    <p class="text-justify mt-3">
       Program Magister S2 Sistem Informasi di ITB STIKOM Bali berkomitmen untuk menyediakan pendidikan berkualitas tinggi yang diakui oleh lembaga akreditasi nasional. Program ini telah memperoleh akreditasi dari Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT) dengan peringkat "Baik".
     </p> 
     <p class="text-justify">

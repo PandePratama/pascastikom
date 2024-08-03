@@ -17,7 +17,7 @@
 
 <div id="akreditasi" class="container mt-4 content">
   <h2 class="text-center py-1">Pengumuman</h2>
-  <ul class="py-2" style="margin-bottom: 170px; padding-left: 165px; padding-right: 165px;">
+  <ul class="py-2 mt-3" style="margin-bottom: 170px; padding-left: 165px; padding-right: 165px;">
     @foreach ($pengumuman as $item)
       <li class="py-2">
         <a href="{{ $item->url }}" target="_blank">{{ $item->text_data }}</a>

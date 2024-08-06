@@ -8,16 +8,15 @@
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="icon" href="/img/pasca.png" type="image/x-icon">
     <style>
         .text-truncate-ellipsis {
             display: -webkit-box;
             -webkit-line-clamp: 3;
-            /* Jumlah baris yang diizinkan */
             -webkit-box-orient: vertical;
             overflow: hidden;
             text-overflow: ellipsis;
             max-height: 5em;
-            /* Sesuaikan dengan tinggi baris */
         }
     </style>
     <title>Media</title>
@@ -27,6 +26,7 @@
     <!-- navbar -->
     <x-navbar></x-navbar>
 
+    <!-- start content -->
     <div class="container">
         <h2 class="row justify-content-center py-3">Media Informasi</h2>
         <div class="row justify-content-center">
@@ -48,9 +48,11 @@
 
         <!-- Tombol Lihat Semua Media -->
         <div class="row justify-content-center mt-4 mb-4">
-            <a href="{{ route('media.all') }}" class="btn btn-secondary" style="background-color: #101f6a;">Lihat lebih banyak</a>
+            <a href="{{ route('media.all') }}" class="btn btn-secondary" style="background-color: #101f6a;">Lihat lebih
+                banyak</a>
         </div>
     </div>
+<!-- end content -->
 
     <!-- footer -->
     <x-footer></x-footer>

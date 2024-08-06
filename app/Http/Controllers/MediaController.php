@@ -16,13 +16,7 @@ class MediaController extends Controller
 
     public function showAllMedia()
     {
-        $data = FormData::latest()->paginate(20); // Mengambil semua media dengan paginasi
-        return view('mediaall', compact('data'));
-    }
-
-    public function showLessMedia()
-    {
-        $data = FormData::latest()->take(9)->get(); // Mengambil media yang lebih sedikit
+        $data = FormData::orderBy('created_at', 'desc')->get(); // Mengambil semua media dan mengurutkan berdasarkan tanggal terbaru
         return view('mediaall', compact('data'));
     }
 
@@ -61,7 +55,7 @@ class MediaController extends Controller
 
     public function showAll()
     {
-        $data = Media::paginate(12); // Atur jumlah item per halaman sesuai kebutuhan
+        $data = Media::orderBy('created_at', 'desc')->paginate(12); // Atur jumlah item per halaman sesuai kebutuhan
         return view('media.all', compact('data'));
     }
 }

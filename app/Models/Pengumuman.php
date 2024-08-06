@@ -14,4 +14,5 @@ class Pengumuman extends Model
         'url',
     ];
     protected $table = 'pengumuman';
+
 }

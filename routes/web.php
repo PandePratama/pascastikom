@@ -51,7 +51,6 @@ Route::post('/logout', [AdminAuthController::class, 'logout'])->name('logout');
 Route::post('/submit', [FormDataController::class, 'store'])->name('submit');
 Route::get('/media', [MediaController::class, 'media']);
 
-
 Route::get('/media', [MediaController::class, 'media'])->name('media.index');
 Route::post('/media', [MediaController::class, 'store'])->name('media.store');
 Route::delete('/media/{id}', [MediaController::class, 'destroy'])->name('media.destroy');
@@ -67,15 +66,13 @@ Route::get('/medialess', [MediaController::class, 'showLessMedia'])->name('media
 
 
 
-
 // Pengumuman Routes
 Route::middleware(['admin'])->group(function () {
     Route::get('/pengumuman', [PengumumanController::class, 'indexAdmin'])->name('pengumuman.index');
     Route::get('/update_pengumuman', [PengumumanController::class, 'create']);
     Route::get('/pengumuman', [PengumumanController::class, 'indexAdmin']);
-    Route::get('/tampil_pengumuman', [PengumumanController::class, 'indexUser']);
     Route::post('/update_pengumuman', [PengumumanController::class, 'store'])->name('submit2');       
-    Route::post('/update_pengumuman/{id}', [PengumumanController::class, 'store'])->name('update_pengumuman'); 
+    //Route::post('/update_pengumuman/{id}', [PengumumanController::class, 'store'])->name('update_pengumuman'); 
     Route::post('/submit2', [PengumumanController::class, 'store'])->name('pengumuman.store');
     Route::delete('/pengumuman/{id}', [PengumumanController::class, 'destroy'])->name('delete_pengumuman');
 });

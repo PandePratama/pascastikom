@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/img/pasca.png" type="image/x-icon">
     <!-- AOS CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
     <!-- AOS JS -->
@@ -20,6 +22,7 @@
     <x-navbar></x-navbar>
     <!-- End Navbar -->
 
+    <!-- start landingpage -->
     <section id="landingpage" class="container-fluid textColorPrimary custom-section"
         style="padding: 60px 20px 0px 80px; position: relative; background-color:#202C59; color:white; min-height:100vh;">
         <img src="img/ornamen.png" alt="Corner Image" class="corner-image top-left"
@@ -48,11 +51,11 @@
     <!-- end landingpage -->
 
     <!-- sambutan rektor -->
-    <div id="sambutan" class="container mt-5" >
+    <div id="sambutan" class="container mt-5">
         <div class="row d-flex align-items-stretch">
             <div class="col-sm-4 d-flex align-items-center justify-content-center">
                 <div class="card-borderless" style="width: 25rem;">
-                    <img src="/img/8.jpg" class="card-img-top" style="border-radius:20px;" alt="direktur">
+                    <img src="/img/8.jpg" class="card-img-top" style="border-radius:20px;" alt="rektor">
                     <div class="card-body mb-1">
                         <p class="card-text text-center"><b>REKTOR ITB STIKOM Bali</b><br>Dr. Dadang Hermawan</p>
                     </div>
@@ -62,15 +65,37 @@
                 <section>
                     <div>
                         <div>
-                            <h2  class="mt-3 text-center">Sambutan Rektor</h2>
+                            <h2 class="mt-3 text-center">Sambutan Rektor</h2>
                             <div class="content-paragraph mx-3 mx-md-5 text-justify" style="font-size: large;">
-                                <p>Salam STIKOM Bali,</p>
-                                <p>Selamat datang di Program Magister Komputer Prodi S2 Sistem Informasi, ITB STIKOM Bali. Kami sangat bangga memperkenalkan program Strata dua S2, yaitu Magister Komputer Sistem Informasi, yang merupakan Prodi S2 Sistem Informasi satu-satunya di Bali, dan saat ini memiliki akreditasi Baik oleh Ban-PT. Sesuai visi Institut Teknologi dan Bisnis (ITB) STIKOM Bali yaitu menjadi perguruan tinggi unggulan dan berkualitas Internasional di bidang ilmu pengetahuan, teknologi dan seni. Kurikulum Program Studi S2 Sistem Informasi dirancang khusus untuk memenuhi kebutuhan dunia industri dan akademik yang terus berkembang, dengan empat konsentrasi utama: Cyber Security, Data Science, Enterprise System, dan Medical Informatic, sehingga mampu mewujudkan kualitas lulusan yang memiliki daya saing global secara nasional dan internasional.</p>
-                                <p>ITB STIKOM Bali berkomitmen untuk menyediakan pendidikan berkualitas tinggi yang mampu menghasilkan lulusan-lulusan yang kompeten, inovatif, dan siap menghadapi tantangan global. Melalui kurikulum yang relevan dan dosen-dosen berpengalaman, kami berusaha menciptakan lingkungan belajar yang kondusif untuk penelitian dan pengembangan ilmu pengetahuan.</p>
-                                <p>Kami percaya bahwa dengan dukungan fasilitas modern dan kolaborasi dengan berbagai industri serta institusi penelitian, mahasiswa akan mendapatkan pengalaman belajar yang komprehensif dan aplikatif. Selain itu, program kami juga menawarkan berbagai potongan biaya dan beasiswa untuk mendukung para mahasiswa dalam meraih cita-cita akademis mereka.</p>
-                                <p>Kami mengundang Anda untuk bergabung dengan sivitas akademik kami dan menjadi bagian dari perjalanan transformasi digital di era revolusi industri 5.0. Bersama-sama, mari kita ciptakan inovasi-inovasi baru yang bermanfaat bagi masyarakat dan memajukan ilmu pengetahuan serta teknologi.</p>
-                                <p>Terima kasih atas perhatian dan kepercayaan Anda kepada ITB STIKOM Bali. Kami berharap dapat bertemu dan bekerja sama dengan Anda semua di masa mendatang.</p>
-                                <p>Salam STIKOM Bali</p>
+                                <h5 id="salam" class="mt-4 mb-3">Salam STIKOM Bali,</h5>
+                                <p>Selamat datang di Program Magister Komputer Prodi S2 Sistem Informasi, ITB STIKOM
+                                    Bali. Kami sangat bangga memperkenalkan program Strata dua S2, yaitu Magister
+                                    Komputer Sistem Informasi, yang merupakan Prodi S2 Sistem Informasi satu-satunya di
+                                    Bali, dan saat ini memiliki akreditasi Baik oleh Ban-PT. Sesuai visi Institut
+                                    Teknologi dan Bisnis (ITB) STIKOM Bali yaitu menjadi perguruan tinggi unggulan dan
+                                    berkualitas Internasional di bidang ilmu pengetahuan, teknologi dan seni. Kurikulum
+                                    Program Studi S2 Sistem Informasi dirancang khusus untuk memenuhi kebutuhan dunia
+                                    industri dan akademik yang terus berkembang, dengan empat konsentrasi utama: Cyber
+                                    Security, Data Science, Enterprise System, dan Medical Informatic, sehingga mampu
+                                    mewujudkan kualitas lulusan yang memiliki daya saing global secara nasional dan
+                                    internasional.</p>
+                                <p>ITB STIKOM Bali berkomitmen untuk menyediakan pendidikan berkualitas tinggi yang
+                                    mampu menghasilkan lulusan-lulusan yang kompeten, inovatif, dan siap menghadapi
+                                    tantangan global. Melalui kurikulum yang relevan dan dosen-dosen berpengalaman, kami
+                                    berusaha menciptakan lingkungan belajar yang kondusif untuk penelitian dan
+                                    pengembangan ilmu pengetahuan.</p>
+                                <p>Kami percaya bahwa dengan dukungan fasilitas modern dan kolaborasi dengan berbagai
+                                    industri serta institusi penelitian, mahasiswa akan mendapatkan pengalaman belajar
+                                    yang komprehensif dan aplikatif. Selain itu, program kami juga menawarkan berbagai
+                                    potongan biaya dan beasiswa untuk mendukung para mahasiswa dalam meraih cita-cita
+                                    akademis mereka.</p>
+                                <p>Kami mengundang Anda untuk bergabung dengan sivitas akademik kami dan menjadi bagian
+                                    dari perjalanan transformasi digital di era revolusi industri 5.0. Bersama-sama,
+                                    mari kita ciptakan inovasi-inovasi baru yang bermanfaat bagi masyarakat dan
+                                    memajukan ilmu pengetahuan serta teknologi.</p>
+                                <p>Terima kasih atas perhatian dan kepercayaan Anda kepada ITB STIKOM Bali. Kami
+                                    berharap dapat bertemu dan bekerja sama dengan Anda semua di masa mendatang.</p>
+                                <h5 id="salam" class="mt-4 mb-3">Salam STIKOM Bali</h5>
                             </div>
                         </div>
                     </div>
@@ -78,10 +103,9 @@
             </div>
         </div>
     </div>
-
     <!-- selesai sambutan rektor -->
 
-
+<!-- konten sejarah -->
     <div class="container" id="sejarah">
         <div class="row d-flex align-items-stretch">
             <div class="col-sm-8 mt-3">
@@ -89,7 +113,7 @@
                     <div>
                         <div>
                             <div class="atur mr-5 mt-5">
-                                <h2  class="mt-3 text-center">Institut Teknologi dan Bisnis STIKOM Bali</h2>
+                                <h2 class="mt-3 text-center">Institut Teknologi dan Bisnis STIKOM Bali</h2>
                                 <p class="content-paragraph text-justify mx-3 mx-md-5 " style="font-size: large;">
                                     Berawal dari bertemunya para pemerhati, pencinta dan praktisi pendidikan yakni Prof.
                                     Dr. Made Bandem, MA., (saat itu Rektor ISI Jogjakarta), Dr. Dadang Hermawan
@@ -124,9 +148,11 @@
             </div>
         </div>
     </div>
+    <!-- selesai konten sejara -->
 
     <!-- Visi Misi Tujuan -->
-    <section id="visi-misi" class="text-light position-relative" style="background-color: #202C59; position: relative; ">
+    <section id="visi-misi" class="text-light position-relative"
+        style="background-color: #202C59; position: relative; ">
         <img src="img/ornamen.png" alt="Corner Image" class="corner-image top-image"
             style="transform: rotate(180deg); width: 300px; height: 300px; position: absolute; top: 0; left: 0;">
         <div class="container py-5 mt-3">
@@ -136,8 +162,8 @@
             </div>
             <br>
             <h3>Visi</h3>
-                <p>Menjadi penyelenggara program Pascasarjana yang berkualitas dan berdaya saing internasional dalam
-                    pengembangan bidang ilmu Pengetahuan, Teknologi dan Seni</p>
+            <p>Menjadi penyelenggara program Pascasarjana yang berkualitas dan berdaya saing internasional dalam
+                pengembangan bidang ilmu Pengetahuan, Teknologi dan Seni</p>
             <br>
             <div>
                 <h3>Misi</h3>
@@ -153,6 +179,7 @@
             <img src="img/ornamen.png" alt="Corner Image" class="corner-image bottom-image"
                 style="width: 300px; height: 300px; position: absolute; bottom: 0; right: 0;">
     </section>
+    <!-- selasai visi misi -->
 
     <!-- Struktur Organisasi -->
     <div id="struktur" class="idx text-center py-4">
@@ -164,13 +191,15 @@
                 style="width: 1100px; height: 1600px;">
         </div>
     </div>
+    <!-- selesai struktur -->
 
     <!-- Dosen Pengajar -->
     <div class="text-center mb-2 mt-5">
         <h1>Direktori Dosen Pengajar</h1>
     </div>
+    <!-- selesai pengajar -->
 
-    <!-- Image Grid -->
+    <!-- direktori dosen -->
     <div class="container mb-4">
         <div class="img-container">
             <div class="img-wrapper">
@@ -223,7 +252,7 @@
             </div>
         </div>
     </div>
-    <!-- End Content -->
+    <!-- selesai direktori dosen -->
 
     <!-- Footer -->
     <x-footer></x-footer>
@@ -236,7 +265,7 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2LcSo/jwBFOjLl3Fw5yTzgJOfdwtFP7iomWtpj6MO9"
         crossorigin="anonymous"></script>
 
-    <!-- Existing body content -->
+    <!-- animasi -->
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init({
@@ -262,6 +291,7 @@
             checkInView(); // Initial check
         });
     </script>
+    <!-- selesai animasi -->
 
 </body>
 

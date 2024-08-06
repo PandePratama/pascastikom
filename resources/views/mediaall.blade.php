@@ -26,6 +26,7 @@
     <x-navbar></x-navbar>
 
     <div class="container">
+        <h2 class="row justify-content-center py-3">Media Informasi</h2>
         <div class="row justify-content-center">
             @foreach($data as $media)
                 <div class="col-md-6 col-lg-4 mb-1 mt-2 pr-0">
@@ -45,7 +46,8 @@
 
         <!-- Tombol Kembali ke Halaman Media -->
         <div class="row justify-content-center mt-4 mb-4">
-            <a href="{{ route('media.index') }}" class="btn btn-secondary " style="background-color: #101f6a;">lihat lebih sedikit</a>
+            <a href="{{ route('media.index') }}" class="btn btn-secondary " style="background-color: #101f6a;">lihat
+                lebih sedikit</a>
         </div>
     </div>
 

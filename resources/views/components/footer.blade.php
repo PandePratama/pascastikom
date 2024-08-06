@@ -19,10 +19,11 @@
         <a href="https://www.instagram.com/stikombali?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
             <i class="bi bi-instagram text-white mx-2" style="font-size: 35px;"></i>
         </a>
-        <a href="https://www.whatsapp.com/">
+        <a href="https://wa.me/6281337129396" target="_blank" rel="noopener noreferrer">
             <i class="bi bi-whatsapp text-white mx-2" style="font-size: 35px;"></i>
         </a>
-        <a href="mailto:aristwn15@gmail.com?subject=haloo%20semua&body=kurang%20tau%20apa%20lah%20pesan">
+        </a>
+        <a href="mailto:si.pasca@stikom-bali.ac.id?subject=%20semua&body=isi%20pesan%20yang%20mau%20dikirimkan">
             <i class="bi bi-envelope-at text-white mx-2" style="font-size: 35px;"></i>
         </a>
     </div>

@@ -9,22 +9,26 @@
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="/img/pasca.png" type="image/x-icon">
 </head>
 
 <body>
 
   <!-- Navbar -->
   <x-navbar></x-navbar>
+  <!-- end navbar -->
 
-  <!-- Content -->
+  <!-- kurikulum -->
   <div id="kurikulum" class="text-center" style="margin-top: 40px;">
     <h2>Kurikulum Program Pascasarjana <br>ITB STIKOM Bali</h2>
     <p class="py-3">
-      Program pascasarjana ITB STIKOM Bali memiliki beban sebanyak 56 SKS selama masa studi. 
+      Program pascasarjana ITB STIKOM Bali memiliki beban sebanyak 56 SKS selama masa studi.
       <br>
-      Kalender akademik dapat dilihat pada <a class="link-opacity-100" href="https://elearning.stikom-bali.ac.id/">elearning.stikom-bali.ac.id</a> atau <a class="link-opacity-100" href="https://sion.stikom-bali.ac.id/login">sion.stikom-bali.ac.id</a>
+      Kalender akademik dapat dilihat pada <a class="link-opacity-100"
+        href="https://elearning.stikom-bali.ac.id/">elearning.stikom-bali.ac.id</a> atau <a class="link-opacity-100"
+        href="https://sion.stikom-bali.ac.id/login">sion.stikom-bali.ac.id</a>
     </p>
-     
+
   </div>
   <div class="container">
     <div class="row align-items-center">
@@ -90,12 +94,14 @@
       </div>
     </div>
   </div>
+  <!-- selesai kurikulum -->
 
-
+<!-- konsentrasi -->
   <section id="konsentrasi" class="py-5" style="margin-top: 20px;">
     <div class="container">
-      <h2 class="text-center py-5" >Fokus Penelitian Program Pascasarjana <br>ITB STIKOM Bali</h2>
+      <h2 class="text-center py-5">Fokus Penelitian Program Pascasarjana <br>ITB STIKOM Bali</h2>
       <div class="row">
+
         <!-- Card 1 -->
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card " style="border-radius: 20px; height: 525px;">
@@ -116,6 +122,7 @@
             </div>
           </div>
         </div>
+
         <!-- Card 2 -->
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="card" style="border-radius: 20px; height: 525px;">
@@ -136,6 +143,7 @@
             </div>
           </div>
         </div>
+
         <!-- Card 3 -->
         <div class="col-lg-3  col-md-6 mb-4">
           <div class="card" style="border-radius: 20px; height: 525px;">
@@ -156,12 +164,14 @@
             </div>
           </div>
         </div>
+
         <!-- Card 4 -->
-        <div  class="col-lg-3 col-md-6 mb-4">
+        <div class="col-lg-3 col-md-6 mb-4">
           <div class="card" style="border-radius: 20px; height: 525px;">
             <img src="img/EnterpriseSystem2.png" class="card-img-top" alt="Enterprise System"
               style="border-top-left-radius: 20px; border-top-right-radius: 20px;">
-            <div class="card-body text-light" style="background-color:#202C59; height:290px; border-radius:0 0 20px 20px;">
+            <div class="card-body text-light"
+              style="background-color:#202C59; height:290px; border-radius:0 0 20px 20px;">
               <h5 class="card-title">Enterprise System</h5>
               <p class="card-text" style="font-size: small;">Pada konsentrasi ini berfokus pada analisis terhadap
                 sistemn informasi yang mneliputi pengembangan framework, optimasi pengolahan sistem dan data, pengolahan
@@ -177,8 +187,10 @@
         </div>
       </div>
     </div>
-  </section >
+  </section>
+  <!-- selesai konsentrasi -->
 
+  <!-- biaya perkuliahan -->
   <div class="container" style="margin-top: 100px">
     <div class="row">
       <div class="col-sm text-center">
@@ -202,7 +214,9 @@
       </div>
     </div>
   </div>
+  <!-- selesai biaya perkuliahan -->
 
+  <!-- persyaratan -->
   <section id="persyaratan" style="background-color: #202C59; position:relative; padding: 50px; margin-top: 70px">
     <img src="img/ornamen.png" alt="Corner Image" class="corner-image top-left"
       style="position:absolute; top: 0px; left:0px; transform:rotate(180deg); width: 300px; height: 300px;">
@@ -220,12 +234,12 @@
           </ol>
         </div>
         <div class="col py-5 px-0">
-          <img src="img/persyaratan3.jpg" alt="persyaratan" style="width: 500px; border-radius: 10px;">
+          <img src="img/persyaratan5.jpg" alt="persyaratan" style="width: 500px; border-radius: 10px;">
         </div>
       </div>
     </div>
     <div class="text-center py-5">
-    <h2 style="color: white;">Alur Pendaftar dan Penerimaan <br> Calon Mahasiswa Pascasarjana</h2>
+      <h2 style="color: white;">Alur Pendaftar dan Penerimaan <br> Calon Mahasiswa Pascasarjana</h2>
       <img src="img/penerimaan3.png" class="img-fluid" style="width: 1500px; border-radius: 10px;">
     </div>
     <img src="img/ornamen.png" alt="Corner Image" class="corner-image bottom-right"
@@ -242,6 +256,7 @@
       <img src="img/alur-sidang-tesis.png" class="img-fluid" alt="">
     </div>
   </div>
+  <!-- selesai persyaratan -->
 
   <!-- Footer -->
   <x-footer></x-footer>
